@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức Thể Thao</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="shortcut icon" href="./asset/img/brand/icon/ZZ2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./asset/css/thethao.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./asset/js/sport.js"></script>
+    <script src="./asset/js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="button-login" onclick="login()">
+            <div class="text-login">Log In</div>
+        </div>
+        <div class="content-relative">
+            <div class="content-login">
+                <div class="button-close" onclick="closelogin()">
+                    <div class="close">
+                        <p>Close</p>
+                    </div>
+                    <img src="./asset/icon/icon-close.svg" alt="icon-close">
+                </div>
+                <div class="content">
+                    <div class="offer animation">
+                        Sign in to receive special offers
+                    </div>
+                    <div class="name-Login animation">Log In With Email</div>
+                    <div class="input ">
+                        <input type="email" class="email animation" placeholder="Email">
+                        <input type="password" class="email animation" placeholder="Password">
+                    </div>
+                    <div class="dongydichvu animation">
+                        <input type="checkbox" name="vydeptrai" id="dongy">
+                        <label for="checkbox">
+                            Have you read the terms and conditions carefully and are sure to log in and join our
+                            website?</label>
+                    </div>
+                    <div class="submit animation">
+                        <b>SUBMIT</b>
+                    </div>
+                    <div class="support animation">
+                        <p>Need help contact us:</p>
+                        <div class="emailus animation">
+                            <div>
+                                <strong>Email</strong>: Nguyenchivy@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-481-446
+                            </div>
+                            <div>
+                                <strong>Email</strong>: Nguyenngoctuong@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-46-465-468
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="header ">
+            <nav class="headerFixed">
+                <div class="menu">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="headerUnFixed">
+                <div class="menu  ">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </div>
+        <nav class="header-mobile">
+            <div class="menu">
+                <div class="logo">
+                    <div class="logo-img">
+                        <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                    </div>
+                    <div class="logo-text">
+                        <a href="#">Gen Z</a>
+                    </div>
+                </div>
+                <ul class="menu-mobile">
+                    <li id="Home"><a href="./index.html">
+                            <i class="ti-home"></i>
+                            Home
+                        </a></li>
+                    <li><a href="./thoitrang.html">Fashion</a></li>
+                    <li><a href="./congnghe.html">Technology</a></li>
+
+                    <li class="menu_about">
+                        <a href="#">About us</a>
+                        <ul class="About_us">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Tiktok</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Twiter</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./sport.html">Sport</a></li>
+                    <li><a href="./education.html">Education</a></li>
+                    <li><a href=""><i class="ti-search"></i></a></li>
+                </ul>
+                <div class="menu-mobile">
+                    <i class="ti-menu"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="gototop" onclick="goToTop()" title="go to top">
+        <a href="javascript:;"><img src="./asset/img/brand/icon/gototop.png" alt="GoToTop"></a>
+    </div>
+    <main>
+        <section class="main-content">
+            <h1 class="animate__animated animate__bounceIn">Thống trị tuyệt đối SEA V.League 2023, HLV tuyển bóng chuyền
+                nữ Thái Lan vẫn có điều lo lắng</h1>
+            <h2 class="animate__animated animate__bounceIn">Đánh bại đội tuyển bóng chuyền nữ Việt Nam, Thái Lan khẳng
+                định sức mạnh vô đối tại khu vực khi giành chức vô địch cả 2 chặng SEA V.League 2023. </h2>
+            <p class="animate__animated animate__bounceIn">Chia sẻ nhanh sau trận, HLV Danai Sriwatcharamethakul đề cập
+                đến cái được và chưa được của ĐT Thái Lan tại chặng 2. </p>
+            <p class="animate__animated animate__bounceIn">"Ba trận đấu vừa qua nằm trong lộ trình đã được lên kế hoạch
+                với các tiêu chí rõ ràng. Nhưng ở yếu tố thể lực, chúng tôi phải tiếp tục cải thiện. Nếu không có thể
+                lực, chúng ta không thể đẩy cao tốc độ lối chơi. Trước tiên chúng tôi cần hồi phục thể lực vì các VĐV đã
+                chơi khá dày, và đó là một phần khiến màn trình diễn của đội không đạt 100%", HLV Danai
+                Sriwatcharemethakul nói.</p>
+            <p class="animate__animated animate__bounceIn">"Một điều khác, chúng tôi đã luân phiên cho các VĐV được vào
+                sân thi đấu. Những gì chúng tôi nhận thấy là một tập thể nhiều tiềm năng hơn. Ngoài ra BHL cũng cố gắng
+                định hình lối chơi chuẩn bị cho Giải Vô địch bóng chuyền nữ châu Á".</p>
+
+
+            <img class="animate__animated animate__bounceIn" class="scroll__hide-to-see"
+                src="./asset/img/sport/thai-lan-viet-nam-bong-chuyen.jpg" alt="bóng chuyền">
+            <figcaption class="image-caption scroll__left-to-right">Bóng chuyền nữ Thái Lan vẫn thể hiện sức mạnh tuyệt
+                đối tại khu vực Đông Nam Á</figcaption>
+            <p class="scroll__bot-to-top">"Sau SEA V.League, đội sẽ có khá nhiều việc phải làm trước thềm Giải Vô địch
+                châu Á. Ngay mai chúng tôi sẽ nghỉ một ngày, cho cơ thể nghỉ ngơi. Chúng tôi có rất ít thời gian trước
+                Giải Vô địch châu Á. Quan trọng nhất chúng tôi cần chuẩn bị tốt về thể lực để dự Vòng loại tranh vé dự
+                Olympic 2024 vì sẽ thi đấu 7 trận liên tiếp. Sẽ là vấn đề nếu chúng tôi không chuẩn bị tốt về mặt thể
+                lực".</p>
+            <p class="scroll__bot-to-top">Giải Vô địch bóng chuyền nữ châu Á sẽ diễn ra từ ngày 30/8 đến 6/9 tại Nakhon
+                Ratchasima, Thái Lan. Có 14 đội tuyển tham dự, trong đó Việt Nam nằm chung bảng với Hàn Quốc, Đài Bắc
+                Trung Hoa và Uzbekistan.</p>
+            <p class="scroll__bot-to-top">Mật độ thi đấu cũng là vấn đề đội tuyển bóng chuyền nữ Việt Nam phải đối mặt.
+                Sau chặng 2 SEA V.League 2023, đội tuyển Việt Nam 1 và sẽ dự VTV Cup 2023 tại Lào Cai từ ngày 18/8 đến
+                26/8. Sau đó 4 ngày, chúng ta sẽ lên đường sang Nakhon Ratchasima, Thái Lan dự giải Vô địch châu Á.</p>
+            <img class="scroll__hide-to-see" src="./asset/img/sport/lich-thi-dau-vnl-2023.jpeg" alt="ảnh thi đấu ">
+            <figcaption class="image-caption scroll__left-to-right">Bóng chuyền nam Nhật Bản là đội bóng duy nhất "bất
+                bại" ở thời điểm hiện tại</figcaption>
+            <p class="scroll__bot-to-top">Cũng vì mật độ thi đáu dày đặc BHL ĐT Việt Nam đã triệu tập 2 đội tuyển. Phụ
+                thuộc vào tính chất giải đấu, phong độ VĐV, HLV Nguyễn Tuấn Kiệt và BHL sẽ có tính toán điều chỉnh nhân
+                sự với phương án luân chuyển, thay thế VĐV phù hợp. </p>
+        </section>
+
+        <section class="opinion">
+            <div class="opinion">
+                <h3>Ý kiến <i class="ti-slice"></i>
+                    <i class="ti-comments"></i>
+                </h3>
+                <div class="box-area">
+                    <textarea id="txtComment" class="txt_comment block_input" placeholder="Chia sẻ ý kiến của bạn...  "
+                        style="overflow-y: hidden; height: 76px;"></textarea>
+                    <i class="ti-location-arrow send"></i>
+
+                </div>
+                <div class="user-send">
+                    <div class="user">
+                        <div class="img-user"><img src="https://cdn-icons-png.flaticon.com/512/1053/1053244.png" alt="">
+                        </div>
+                        <div class="name-user">Name user</div>
+                        <button>Gửi</button>
+                    </div>
+                </div>
+                <h3></h3>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="main-footer">
+            <div class="row">
+                <!-- cot 1 -->
+                <div class="cot">
+                    <img style="width: 60px;" src="./img/zwhite.png" alt="logo">
+                    <p class="desc">Cần sự giúp đỡ tìm hiểu về lứa tuổi Genz , một thanh xuân đầy màu sắc, hoài niệm, mơ
+                        mộng! Với TIN TỨC GENZ sẽ trả lời với các bạn các điều đó.</p>
+                    <div class="socials">
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/facebook.svg" alt="logo" class="icon facebook">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/instagram.svg" alt="logo" class="icon">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/twitter.svg" alt="logo" class="icon twitter">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/linkedin.svg" alt="logo" class="icon in">
+                        </a>
+                    </div>
+                </div>
+                <!-- cot 2 -->
+                <div class="cot">
+                    <h3 class="title">Company</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!">Features</a>
+                        </li>
+                        <li>
+                            <a href="#!">Our Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#!">Latest News</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 3 -->
+                <div class="cot">
+                    <h3 class="title">Support</h3>
+                    <ul class="list">
+
+                        <li>
+                            <a href="#!">FAQ’s</a>
+                        </li>
+                        <li>
+                            <a href="#!">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#!">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 4 -->
+                <div class="cot">
+                    <h3 class="title">Address</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!"><strong>Location</strong>: 27 Division St, New York, NY 10002, USA</a>
+                        </li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: nguyenchivy@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 814 468</a>
+                        </li>
+                        <li></li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: ngoctuong@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 6465 468</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> Copyright&copy; 2023 webdesign.gdn All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

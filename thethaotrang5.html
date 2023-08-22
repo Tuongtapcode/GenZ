@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức Thể Thao</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="shortcut icon" href="./asset/img/brand/icon/ZZ2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./asset/css/thethao.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./asset/js/sport.js"></script>
+    <script src="./asset/js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="button-login" onclick="login()">
+            <div class="text-login">Log In</div>
+        </div>
+        <div class="content-relative">
+            <div class="content-login">
+                <div class="button-close" onclick="closelogin()">
+                    <div class="close">
+                        <p>Close</p>
+                    </div>
+                    <img src="./asset/icon/icon-close.svg" alt="icon-close">
+                </div>
+                <div class="content">
+                    <div class="offer animation">
+                        Sign in to receive special offers
+                    </div>
+                    <div class="name-Login animation">Log In With Email</div>
+                    <div class="input ">
+                        <input type="email" class="email animation" placeholder="Email">
+                        <input type="password" class="email animation" placeholder="Password">
+                    </div>
+                    <div class="dongydichvu animation">
+                        <input type="checkbox" name="vydeptrai" id="dongy">
+                        <label for="checkbox">
+                            Have you read the terms and conditions carefully and are sure to log in and join our
+                            website?</label>
+                    </div>
+                    <div class="submit animation">
+                        <b>SUBMIT</b>
+                    </div>
+                    <div class="support animation">
+                        <p>Need help contact us:</p>
+                        <div class="emailus animation">
+                            <div>
+                                <strong>Email</strong>: Nguyenchivy@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-481-446
+                            </div>
+                            <div>
+                                <strong>Email</strong>: Nguyenngoctuong@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-46-465-468
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="header ">
+            <nav class="headerFixed">
+                <div class="menu">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="headerUnFixed">
+                <div class="menu  ">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </div>
+        <nav class="header-mobile">
+            <div class="menu">
+                <div class="logo">
+                    <div class="logo-img">
+                        <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                    </div>
+                    <div class="logo-text">
+                        <a href="#">Gen Z</a>
+                    </div>
+                </div>
+                <ul class="menu-mobile">
+                    <li id="Home"><a href="./index.html">
+                            <i class="ti-home"></i>
+                            Home
+                        </a></li>
+                    <li><a href="./thoitrang.html">Fashion</a></li>
+                    <li><a href="./congnghe.html">Technology</a></li>
+
+                    <li class="menu_about">
+                        <a href="#">About us</a>
+                        <ul class="About_us">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Tiktok</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Twiter</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./sport.html">Sport</a></li>
+                    <li><a href="./education.html">Education</a></li>
+                    <li><a href=""><i class="ti-search"></i></a></li>
+                </ul>
+                <div class="menu-mobile">
+                    <i class="ti-menu"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="gototop" onclick="goToTop()" title="go to top">
+        <a href="javascript:;"><img src="./asset/img/brand/icon/gototop.png" alt="GoToTop"></a>
+    </div>
+    <main>
+        <section class="main-content">
+          <h1 class="animate__animated animate__rubberBand">Chạy bộ có tác dụng gì? 5 tác dụng của chạy bộ mỗi ngày</h1>
+          <img class="animate__animated animate__rubberBand" src="./asset/img/sport/tac-dung-cua-chay-bo-e1589353870189.jpg" alt="bóng chuyền">
+          <figcaption class="image-caption scroll__bot-to-top">Chạy bộ để tăng sức khỏe</figcaption>
+          <h2  class="scroll__bot-to-top ">Tác dụng của chạy bộ là vô cùng tốt cho sức khỏe lẫn vóc dáng của bạn. Hơn nữa, đây còn là môn thể thao đơn giản, dễ tập và phù hợp với mọi lứa tuổi. Vậy cụ thể chạy bộ có tác dụng gì?</h2>
+          <p  class="scroll__bot-to-top ">Cùng tìm hiểu 12 tác dụng của chạy bộ dưới đây để lên kế hoạch luyện tập ngay hôm nay bạn nhé.</p>
+          <h1  class="scroll__bot-to-top ">Chạy bộ có tác dụng gì?</h1>     
+      <h2  class="scroll__left-to-right ">1. Tác dụng của chạy bộ giúp tăng tuổi thọ</h2>
+      <br>
+      <p  class="scroll__bot-to-top ">Chạy bộ có tác dụng gì? Nhiều nghiên cứu đã chỉ ra rằng hoạt động chạy bộ giúp bạn kéo dài tuổi thọ. Một nghiên cứu vào năm 2018 cho thấy những người chạy bộ có tỷ lệ tử vong thấp hơn khoảng 25-30% so với những người không chạy bộ. Cho dù bạn chỉ tập chạy bộ 1 lần/tuần thì vẫn có tác dụng hơn so với khi bạn không chạy bộ.</p>
+      <br>
+        <p  class="scroll__bot-to-top ">Một nghiên cứu khác cũng cho thấy việc bạn chạy bộ có thể giúp tăng tuổi thọ thêm khoảng 3 năm. Lợi ích này là do thói quen tập thể dục giúp tăng cường sức khỏe tim mạch, kiểm soát glucose và insulin giúp xương chắc khỏe, điều hòa hormone và hỗ trợ thần kinh. Không những vậy, lợi ích của chạy bộ còn giúp bạn giảm thiểu chất béo và giảm cholesterol.</p>
+              
+        <br>
+        <h2  class="scroll__bot-to-top ">2. Chạy bộ có tác dụng gì? Giúp bạn tăng năng suất làm việc</h2>
+      <img class="scroll__hide-to-see" src="./asset/img/sport/tac-dung-cua-chay-bo-1-e1589339582435.png" alt="bóng chuyền">
+      
+      <p  class="scroll__bot-to-top ">Tác dụng của chạy bộ không chỉ giúp bạn kéo dài tuổi thọ mà còn tăng năng suất làm việc, năng động và khỏe mạnh hơn.</p>
+       <p  class="scroll__bot-to-top ">Một nghiên cứu đã so sánh những người trong độ tuổi 50 thường chạy bộ với những người không tập thể dục. Kết quả sau 21 năm cho thấy, tỷ lệ tử vong ở những người thường xuyên chạy bộ thấp hơn 50% so với những người không chạy bộ.</p>
+      <p  class="scroll__bot-to-top ">Hơn thế nữa, những người không chạy bộ thường ốm nằm một chỗ sớm hơn từ 11-16 năm so với những người chạy bộ. Điều này có nghĩa là những người chạy bộ có xu hướng trẻ lâu và khỏe mạnh hơn.</p>
+      <h2  class="scroll__left-to-right ">3. Lợi ích của chạy bộ giúp bạn ngủ ngon</h2>
+      <p  class="scroll__bot-to-top ">Tầm quan trọng của giấc ngủ ngon sẽ giúp bạn cải thiện sự tập trung, nâng cao thành tích thể thao, tăng cường hệ miễn dịch. Giấc ngủ còn giúp bạn giảm nguy cơ mắc bệnh béo phì, tiểu đường, đột quỵ, trầm cảm, viêm nhiễm…</p>
+      <p  class="scroll__bot-to-top ">Theo nhiều nghiên cứu, thói quen chạy bộ sẽ giúp bạn ngủ nhanh và ngủ sâu hơn để phục hồi sức khỏe của cơ thể. Điều này rất tốt đối với những người mắc chứng khó ngủ hay thường xuyên thức giấc vào nửa đêm. Bạn càng chăm chỉ tập thể dục sẽ càng có thể cải thiện chất lượng giấc ngủ. Những người càng ít tập thể dục càng dễ bị thiếu ngủ</p>
+      <h2  class="scroll__left-to-right ">4. Công dụng của chạy bộ giúp giảm đau xương khớp</h2>
+      <img class="scroll__hide-to-see" src="./asset/img/sport/tac-dung-cua-chay-bo-2-e1589339901410.png" alt="chạy bộ">
+      <p  class="scroll__bot-to-top ">Tác dụng chạy bộ là gì? Những người không chạy bộ hay không tập thể dục khi càng lớn tuổi sẽ dễ dàng gặp các vấn đề ở đầu gối và lưng so với những người thường xuyên chạy bộ.</p>
+      <p  class="scroll__bot-to-top ">Một nghiên cứu đã so sánh 675 vận động viên marathon với những người không tham gia hoạt động thể chất. Kết quả cho thấy tỷ lệ viêm khớp ở những người thường xuyên chạy bộ thấp hơn so với những người không chạy. Các nhà nghiên cứu khác cũng cho biết thêm hoạt động chạy bộ thậm chí không làm ảnh hưởng đến các mô xương khớp như khớp gối.</p>
+      <p  class="scroll__bot-to-top ">Một nghiên cứu khác vào năm 2020 cũng cho thấy những người đàn ông trung niên chạy bộ trong thời gian dài ít gặp những vấn đề liên quan đến thoát vị đĩa đệm.</p>
+      <h2  class="scroll__left-to-right ">5. Chạy bộ có tác dụng gì? Giúp duy trì vóc dáng</h2>
+      <p  class="scroll__bot-to-top ">Bài tập chạy bộ là một trong những phương pháp giảm cân hiệu quả nhờ có tác dụng đốt cháy nhiều calo. Bạn không nhất thiết phải chạy nhanh mới giảm được nhiều cân mà nên chạy chậm để tăng cường tác dụng giảm cân. Tuy nhiên, khi chạy chậm thì bạn cần phải tăng thời gian chạy hơn gấp đôi so với việc chạy nhanh để thấy hiệu quả.</p>
+      <p  class="scroll__bot-to-top ">Nhiều người thường dễ giảm cân nhưng không thể duy trì vóc dáng cân đối. Nghiên cứu cho thấy những người tập chạy bộ thường xuyên có thể giảm được nhiều cân trong vòng 6 tháng. Sau đó, trọng lượng cơ thể của họ lại tiếp tục gia tăng, thậm chí còn tăng nhiều hơn so với khi chưa chạy bộ giảm cân.</p>
+      <p  class="scroll__bot-to-top ">Vì vậy, bạn cần kiên trì tập chạy bộ để tăng mức độ giảm cân. Tổ chức kiểm soát cân nặng quốc gia (National Weight Control Registry) đã theo dõi những người giảm trung bình 30 ký trong 5,5 năm. Kết quả cho thấy 90% trong số họ tập thể dục trung bình một giờ mỗi ngày và 98% đã tuân thủ thực hiện chế độ ăn kiêng để có tác dụng giảm cân.</p>
+      <h2 class="scroll__left-to-right ">Lưu ý khi chạy bộ</h2>
+      <p  class="scroll__bot-to-top ">Khi chạy bộ, có một số lưu ý quan trọng để đảm bảo an toàn và hiệu quả:</p>
+      <ol class="">
+      <li class="scroll__left-to-right " ><strong >Tập luyện và khởi động cơ thể trước khi chạy bộ.</strong> Bạn nên tập luyện các bài tập khởi động trước khi bắt đầu chạy bộ để giúp cơ thể chuẩn bị sẵn sàng cho hoạt động.</li>
+      <li class="scroll__left-to-right " ><strong >Điều chỉnh thời gian và độ dốc.</strong> Bạn nên bắt đầu với thời gian và độ dốc thấp hơn, sau đó tăng dần lên theo từng buổi tập. Điều này giúp cơ thể thích nghi dần với hoạt động và giảm nguy cơ chấn thương.</li>
+      <li class="scroll__left-to-right " ><strong >Chọn giày chạy bộ phù hợp.</strong> Điều này giúp giảm tối đa nguy cơ chấn thương và tăng độ thoải mái cho chân.</li>
+      <li class="scroll__left-to-right " ><strong >Sử dụng đúng tư thế chạy bộ.</strong> Bạn nên chạy với tư thế thẳng lưng, đẩy chân từ phần giữa của đế giày và không quá nghiêng về phía trước hoặc phía sau.</li>
+      <li class="scroll__left-to-right " ><strong >Tập trung vào hơi thở.</strong> Bạn nên tập trung vào việc thở đều, sâu và đều khi chạy bộ, điều này giúp cung cấp đủ oxy cho cơ thể.</li>
+      </ol>
+
+        </section>
+
+        <section class="opinion">
+            <div class="opinion">
+                <h3>Ý kiến <i class="ti-slice"></i>
+                    <i class="ti-comments"></i>
+                </h3>
+                <div class="box-area">
+                    <textarea id="txtComment" class="txt_comment block_input" placeholder="Chia sẻ ý kiến của bạn...  "
+                        style="overflow-y: hidden; height: 76px;"></textarea>
+                    <i class="ti-location-arrow send"></i>
+
+                </div>
+                <div class="user-send">
+                    <div class="user">
+                        <div class="img-user"><img src="https://cdn-icons-png.flaticon.com/512/1053/1053244.png" alt="">
+                        </div>
+                        <div class="name-user">Name user</div>
+                        <button>Gửi</button>
+                    </div>
+                </div>
+                <h3></h3>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="main-footer">
+            <div class="row">
+                <!-- cot 1 -->
+                <div class="cot">
+                    <img style="width: 60px;" src="./img/zwhite.png" alt="logo">
+                    <p class="desc">Cần sự giúp đỡ tìm hiểu về lứa tuổi Genz , một thanh xuân đầy màu sắc, hoài niệm, mơ
+                        mộng! Với TIN TỨC GENZ sẽ trả lời với các bạn các điều đó.</p>
+                    <div class="socials">
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/facebook.svg" alt="logo" class="icon facebook">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/instagram.svg" alt="logo" class="icon">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/twitter.svg" alt="logo" class="icon twitter">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/linkedin.svg" alt="logo" class="icon in">
+                        </a>
+                    </div>
+                </div>
+                <!-- cot 2 -->
+                <div class="cot">
+                    <h3 class="title">Company</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!">Features</a>
+                        </li>
+                        <li>
+                            <a href="#!">Our Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#!">Latest News</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 3 -->
+                <div class="cot">
+                    <h3 class="title">Support</h3>
+                    <ul class="list">
+
+                        <li>
+                            <a href="#!">FAQ’s</a>
+                        </li>
+                        <li>
+                            <a href="#!">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#!">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 4 -->
+                <div class="cot">
+                    <h3 class="title">Address</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!"><strong>Location</strong>: 27 Division St, New York, NY 10002, USA</a>
+                        </li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: nguyenchivy@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 814 468</a>
+                        </li>
+                        <li></li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: ngoctuong@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 6465 468</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> Copyright&copy; 2023 webdesign.gdn All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

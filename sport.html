@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức Thể Thao</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="shortcut icon" href="./asset/img/brand/icon/ZZ2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./asset/css/sport.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <div class="anhchuyen">
+            <!-- images -->
+            <div class="list">
+                <div class="item">
+                    <img src="./asset/img/sport/pexels-andrea-piacquadio-927437.jpg" alt="anhchuyen">
+                </div>
+                <div class="item">
+
+                    <img src="./asset/img/sport/picography-a-rock-climber-holds-out-knotted-rope.jpg" alt="anhchuyen">
+                </div>
+                <div class="item">
+
+                    <img src="./asset/img/sport/theducdungcu.jpg" alt="anhchuyen">
+                </div>
+                <div class="item">
+
+                    <img src="./asset/img/sport/man-7813108_1280.jpg" alt="anhchuyen">
+                </div>
+                <div class="item">
+
+                    <img src="./asset/img/sport/picography-racing-through-city.jpg" alt="nội dung mới nhất">
+                </div>
+            </div>
+            <!-- button prev next -->
+            <div class="buttons">
+                <button id="prev"><i class="ti-angle-left"></i></button>
+                <button id="next"><i class="ti-angle-right"></i></button>
+            </div>
+            <ul class="dots">
+                <li class="active"> </li>
+                <li> </li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <!-- phần đăng nhập -->
+
+        <!-- nút đăng nhập -->
+
+        <div class="button-login" onclick="login()">
+            <div class="text-login">Log In</div>
+        </div>
+
+        <!-- nội dung đăng nhập -->
+
+        <div class="content-relative">
+            <div class="content-login">
+                <div class="button-close" onclick="closelogin()">
+                    <div class="close">
+                        <p>Close </p>
+                    </div>
+                    <img src="./asset/icon/icon-close.svg" alt="icon-close">
+                </div>
+                <div class="content">
+                    <div class="offer animation">
+                        Sign in to receive special offers
+                    </div>
+                    <div class="name-Login animation">Log In With Email</div>
+                    <div class="input ">
+                        <input type="email" class="email animation" placeholder="Email">
+                        <input type="password" class="email animation" placeholder="Password">
+                    </div>
+                    <div class="dongydichvu animation">
+                        <input type="checkbox" name="vydeptrai" id="dongy">
+                        <label for="checkbox">
+                            Have you read the terms and conditions carefully and are sure to log in and join our
+                            website?</label>
+                    </div>
+                    <div class="submit animation">
+                        <b>SUBMIT</b>
+                    </div>
+                    <div class="support animation">
+                        <p>Need help contact us:</p>
+                        <div class="emailus animation">
+                            <div>
+                                <strong>Email</strong>: Nguyenchivy@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-481-446
+                            </div>
+                            <div>
+                                <strong>Email</strong>: Nguyenngoctuong@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-46-465-468
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="header ">
+            <nav class="headerFixed">
+                <div class="menu">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="headerUnFixed">
+                <div class="menu  ">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+        <nav class="header-mobile">
+            <div class="menu">
+                <div class="logo">
+                    <div class="logo-img">
+                        <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                    </div>
+                    <div class="logo-text">
+                        <a href="#">Gen Z</a>
+                    </div>
+                </div>
+                <ul class="menu-mobile">
+                    <li id="Home"><a href="./index.html">
+                            <i class="ti-home"></i>
+                            Home
+                        </a></li>
+                    <li><a href="./thoitrang.html">Fashion</a></li>
+                    <li><a href="./congnghe.html">Technology</a></li>
+
+                    <li class="menu_about">
+                        <a href="#">About us</a>
+                        <ul class="About_us">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Tiktok</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Twiter</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./sport.html">Sport</a></li>
+                    <li><a href="./education.html">Education</a></li>
+                    <li><a href=""><i class="ti-search"></i></a></li>
+                </ul>
+                <div class="menu-mobile">
+                    <i class="ti-menu"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="gototop" onclick="goToTop()" title="go to top">
+        <a href="javascript:;"><img src="./asset/img/brand/icon/gototop.png" alt="GoToTop"></a>
+    </div>
+    <main>
+        <div class="gioithieu">
+            <div class="mucde scroll__bot-to-top">
+                <h2>GIỚI THIỆU</h2>
+            </div>
+            <div class="noidung scroll__bot-to-top">
+                <h1>TIN TỨC THỂ THAO</h1>
+                Chào mừng bạn đến với trang web thể thao độc đáo, nơi thế hệ Gen Z được truyền cảm hứng và kết nối thông
+                qua đam mê thể thao. Chúng tôi tự hào mang đến cho bạn một không gian đầy năng lượng, nơi bạn có thể
+                khám phá thế giới thể thao qua góc nhìn mới lạ và đa dạng, chúng tôi hiểu rằng thế hệ Gen Z không chỉ
+                thích xem, mà còn thích tham gia. Vì vậy, chúng tôi đã tạo ra một cộng đồng mạnh mẽ, nơi bạn có thể kết
+                nối với những người cùng đam mê, tham gia vào các cuộc thi thể thao, theo dõi các giải đấu Esports đỉnh
+                cao, và cùng nhau đạt được những mục tiêu cá nhân.
+            </div>
+        </div>
+        <div class="gioithieumoinhat scroll__left-to-right">
+            <h1>MỚI NHẤT</h1>
+        </div>
+        <div class="noidungmoinhat">
+            <div class="moinhat scroll__bot-to-top">
+                <div class="itemmoinhat scroll__left-to-right">
+                    <a href="./thethaotrang1.html " class="img" >
+                        <img class="thumb" src="./asset/img/sport/content/ronaldo.jpg" alt="nội dung mới nhất">
+                    </a>
+                    <div class="info">
+                        <span class="date">13 August 2023</span>
+                        <h3 class="title">
+                            <a href="./thethaotrang1.html">
+                                Ronaldo cùng đồng đội Alnass vô dịch giải ả rập
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="itemmoinhat scroll__left-to-right">
+                    <a href="./thethaotrang2.html">
+                        <img class="thumb" src="./asset/img/sport/content/messi.png" alt="nội dung mới nhất">
+                    </a>
+                    <div class="info">
+                        <span class="date">12 August 2023</span>
+                        <h3 class="title">
+                            <a href="./thethaotrang2.html">
+                                Messi bùng nổ ở Inter Miami: Bóng đá kiểu hollywood
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="itemmoinhat  scroll__right-to-left">
+                    <a href="./thethaotrang3.html">
+                        <img class="thumb" src="./asset/img/sport/content/bong-chuyen-nhat-ban-y-1.jpeg"
+                            alt="nội dung mới nhất">
+                    </a>
+                    <div class="info">
+                        <span class="date">31 July 2023</span>
+                        <h3 class="title">
+                            <a href="./thethaotrang3.html">
+                                Nhật Bản thắng Á quân thế giới, bất bại ở VNL 2023
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="itemmoinhat scroll__right-to-left">
+                    <a href="./thethaotrang4.html">
+                        <img class="thumb" src="./asset/img/sport/content/pexels-todd-trapani-1837687.jpg"
+                            alt="nội dung mới nhất">
+                    </a>
+                    <div class="info">
+                        <span class="date">13 July 2023</span>
+                        <h3 class="title">
+                            <a href="./thethaotrang4.html">
+                                Trượt tuyết ở Áo - Trải nghiệm hấp dẫn không nên bỏ lỡ
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="caunoihaytrongthethao">
+            <div class="gioithieucaunoi scroll__left-to-right">
+                <h2>CÂU NÓI HAY TRONG THỂ THAO</h2>
+            </div>
+            <div class="caunoi">
+                <div>RONALDO</div>
+                <i>
+                    Tôi không phải là người cầu toàn, nhưng tôi thích cảm thấy rằng mọi thứ được hoàn thành tốt. Quan
+                    trọng hơn, tôi cảm thấy có nhu cầu học hỏi, cải thiện và phát triển vô tận, không chỉ để làm hài
+                    lòng huấn luyện viên và người hâm mộ, mà còn cảm thấy hài lòng với bản thân mình. Tôi tin chắc rằng
+                    ở đây không có giới hạn cho việc học, và nó không bao giờ có thể dừng lại, cho dù chúng ta ở độ tuổi
+                    nào!
+                </i>
+            </div>
+        </div>
+
+        <div class="tintuc">
+            <div class="gioithieu">
+                <div class="gioithieutintuc scroll__left-to-right">
+                    <h2> TIN TỨC</h2>
+                </div>
+                <div class="xemthem scroll__right-to-left">
+                    <h2> Xem Thêm</h2>
+                </div>
+            </div>
+            <div class="noidungtintuc ">
+                <div class="padingkhoi">
+                    <div class="anhlon scroll__left-to-right">
+                        <a href="./thethaotrang5.html">
+                            <img class="thumb2" src="./asset/img/sport/running.jpg" alt="người chạy bộ">
+                        </a>
+                        <div class="info">
+                            <span class="date">6 August 2022</span>
+                            <h3 class="title">
+                                <a href="./thethaotrang5.html">
+                                    Chạy bộ giúp gì cho cuộc sống hiện tại ?
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="anhbe ">
+                        <div class="noidunganhbe scroll__right-to-left   ">
+                            <a href="./thethaotrang6.html">
+                                <img class="thumb2" src="./asset/img/sport/Loi-ich-nhay-day.jpg" alt="người chạy bộ">
+                            </a>
+                            <div class="info">
+                                <span class="date">6 August 2022</span>
+                                <h3 class="titlebe">
+                                    <a href="./thethaotrang6.html">
+                                        Công dụng và lợi ích của việc nhảy dây ?
+                                    </a>
+                                </h3>
+                            </div>
+
+                        </div>
+                        <div class="noidunganhbe scroll__right-to-left   ">
+                            <a href="./thethaotrang7.html">
+                                <img class="thumb2" src="./asset/img/sport/conor.jpg" alt="người chạy bộ">
+                            </a>
+                            <div class="info">
+                                <span class="date">1 August 2022</span>
+                                <h3 class="titlebe">
+                                    <a href="./thethaotrang7.html">
+                                        Conor McGregor: thu nhập cho cựu UFC ?
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="noidunganhbe scroll__right-to-left ">
+                            <a href="./thethaotrang8.html">
+                                <img class="thumb2" src="./asset/img/sport/lich-thi-dau-vnl-2023.jpeg"
+                                    alt="người chạy bộ">
+                            </a>
+                            <div class="info">
+                                <span class="date">4 August 2022</span>
+                                <h3 class="titlebe">
+                                    <a href="./thethaotrang8.html">
+                                        Thống trị tuyệt đối SEA V.League 2023
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="noidunganhbe scroll__right-to-left ">
+                            <a href="./thethaotrang9.html">
+                                <img class="thumb2" src="./asset/img/sport/leechongwei.jpeg" alt="người chạy bộ">
+                            </a>
+                            <div class="info">
+                                <span class="date">6 August 2022</span>
+                                <h3 class="titlebe">
+                                    <a href="./thethaotrang9.html">
+                                        Tay vợt số 1 thế giới giải nghệ vì ung thư ?
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="buttonxemthem">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="main-footer">
+            <div class="row">
+                <!-- cot 1 -->
+                <div class="cot">
+                    <img style="width: 60px;" src="./img/zwhite.png" alt="logo">
+                    <p class="desc">Cần sự giúp đỡ tìm hiểu về lứa tuổi Genz , một thanh xuân đầy màu sắc, hoài niệm, mơ
+                        mộng! Với TIN TỨC GENZ sẽ trả lời với các bạn các điều đó.</p>
+                    <div class="socials">
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/facebook.svg" alt="logo" class="icon facebook">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/instagram.svg" alt="logo" class="icon">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/twitter.svg" alt="logo" class="icon twitter">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/linkedin.svg" alt="logo" class="icon in">
+                        </a>
+                    </div>
+                </div>
+                <!-- cot 2 -->
+                <div class="cot">
+                    <h3 class="title">Company</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!">Features</a>
+                        </li>
+                        <li>
+                            <a href="#!">Our Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#!">Latest News</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 3 -->
+                <div class="cot">
+                    <h3 class="title">Support</h3>
+                    <ul class="list">
+
+                        <li>
+                            <a href="#!">FAQ’s</a>
+                        </li>
+                        <li>
+                            <a href="#!">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#!">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 4 -->
+                <div class="cot">
+                    <h3 class="title">Address</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!"><strong>Location</strong>: August 8, 2023, Ho Chi Minh City, Vietnam</a>
+                        </li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: nguyenchivy@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 814 468</a>
+                        </li>
+                        <li></li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: ngoctuong@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 6465 468</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> Copyright&copy; 2023 webdesign.gdn All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./asset/js/main.js"></script>
+    <script src="./asset/js/sport.js"></script>
+</body>
+
+</html>

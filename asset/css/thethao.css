@@ -1,0 +1,137 @@
+
+.menu > ul > li:first-child > a {
+    background:none;
+    color: gray;
+}
+.menu > ul > li:first-child:hover > a {
+    background:rgba(230, 230, 255, 0.6);
+    color: brown;
+}
+.menu > ul > li:nth-child(5) > a {
+    background:rgba(230, 230, 255, 0.6);
+    color: brown;
+}
+.menu > ul > li:nth-child(5){
+    overflow: hidden;
+}
+
+section.main-content{
+    width: 80%;
+    margin: auto;
+}
+main{
+    background-color:#fcfaf6;
+    padding-top: 14rem;
+    width: 100%;
+   
+}
+main h1{
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+main h2{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+figcaption.image-caption{
+    font-size: 2rem;
+    line-height: 1.65em;
+    font-style: italic;
+    font-weight: 600;
+    color: rgba(0,0,0,.7);
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+section.opinion{
+    margin-top: 10rem;
+    background-color: #fff;
+    padding: 15px;
+    font-size: 10rem;
+    }
+div.opinion > h3{
+    font-size: 30px;
+}
+section.opinion > div.opinion{
+        width: 80%;
+        margin: auto;
+    }
+    div.box-area{
+      position: relative;
+      background:#F7F7F7;
+     
+      border-left: 3px solid grey ;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+  div.box-area i.send{
+      position: absolute;
+      right: 5px;
+      bottom: 5px;
+  }
+  textarea               {
+      font: 400 16px/150% arial;
+      position: relative;
+      background: #F7F7F7;
+      border: none;
+      resize: none;
+      outline: none;
+      width: 100%;
+      color: #4f4f4f !important;
+      overflow: hidden;
+      padding: 5px 37px 0 15px;
+  }
+  div.user > div.img-user{
+      width: 40px;
+  }
+  div.user{
+      display: flex;
+      align-items: center;
+      justify-content: right;
+      margin: 12px;
+  }
+  div.user div.img-user{
+      margin:5px ;
+  }
+  div.user div.name-user{
+   margin:5px ;
+  
+  }
+  div.user > button{
+      outline: none;
+      border: none;
+      background-color: #c92a57;
+      padding: 10px 30px;
+      margin-left: 30px;
+      color: #fff;
+      font-weight: bolder;
+  }
+  div.user > button:hover
+  {
+      background-color: #9F224E;;
+  }
+  h3{
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  ul li{
+    font-size: 2rem;
+  }
+  ol li{
+    font-size: 2rem;
+  }
+  ol strong{
+    font-size: 2rem;
+  }

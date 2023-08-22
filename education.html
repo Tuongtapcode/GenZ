@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gen Z - Education</title>
+   
+  
+    <link rel="shortcut icon" href="./asset/img/brand/icon/ZZ2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/sport.css">
+    <link rel="stylesheet" href="./asset/css/education.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ 
+    
+<body>
+    <header>
+        <div class="anhchuyen">
+            <!-- images -->
+           <div class="list">
+                <div class="item">
+                    <img src="./asset/img/education/education1.jpg" alt="anhchuyen">
+                </div>
+                <div class="item">
+                    
+                    <img src="./asset/img/education/education2.jpg" alt="anhchuyen">
+                </div>
+                <div class="item">
+                  
+                    <img src="./asset/img/education/education3.jpg" alt="anhchuyen">
+                </div>
+                <div class="item">
+                  
+                    <img src="./asset/img/education/education4.jpg" alt="anhchuyen">
+                </div>
+                <div class="item">
+                   
+                    <img src="./asset/img/education/education5.jpg" alt="nội dung mới nhất">
+                </div>
+           </div>
+            <!-- button prev next -->
+            <div class="buttons">
+                <button id="prev"><i class="ti-angle-left"></i></button>
+                <button id="next"><i class="ti-angle-right"></i></button>    
+            </div>
+            <ul class="dots">
+                <li class="active"> </li>
+                <li> </li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>    
+        </div>
+        <!-- phần đăng nhập -->
+
+        <!-- nút đăng nhập -->
+
+        <div class="button-login" onclick="login()">
+            <div class="text-login">Log In</div>
+        </div>
+
+        <!-- nội dung đăng nhập -->
+
+        <div class="content-relative">
+            <div class="content-login">
+                <div class="button-close" onclick="closelogin()">
+                    <div class="close" >
+                        <p>Close</p>    
+                    </div>
+                        <img src="./asset/icon/icon-close.svg" alt="icon-close">
+                </div>
+                <div class="content">
+                    <div class="offer animation">
+                        Sign in to receive special offers
+                    </div>
+                    <div class="name-Login animation">Log In With Email</div>
+                    <div class="input " >
+                            <input type="email" class="email animation" placeholder="Email">
+                            <input type="password" class="email animation"placeholder="Password">
+                        </div>
+                        <div class="dongydichvu animation">
+                            <input type="checkbox" name="vydeptrai" id="dongy">
+                            <label for="checkbox">
+                                Have you read the terms and conditions carefully and are sure to log in and join our website?</label>
+                        </div>
+                        <div class="submit animation">
+                            <b>SUBMIT</b>
+                        </div>
+                        <div class="support animation">
+                            <p>Need help contact us:</p>
+                            <div class="emailus animation">
+                                <div >
+                                    <strong>Email</strong>: Nguyenchivy@gmail.com <br>
+                                    <strong>MyPhone</strong>: 098-481-446
+                                </div>
+                                <div >
+                                    <strong>Email</strong>: Nguyenngoctuong@gmail.com <br>
+                                    <strong>MyPhone</strong>: 098-46-465-468
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header ">
+            <nav class="headerFixed">
+                <div class="menu">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul class="menu-first">
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+    
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                    <div class="menu-mobile">
+                        <i class="ti-menu"></i>
+                    </div>
+                </div>
+            </nav>
+            <nav class="headerUnFixed">
+                <div class="menu  ">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                    <div class="menu-mobile">
+                        <i class="ti-menu"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <nav class="header-mobile">
+            <div class="menu">
+                <div class="logo">
+                    <div class="logo-img">
+                        <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                    </div>
+                    <div class="logo-text">
+                        <a href="#">Gen Z</a>
+                    </div>
+                </div>
+                <ul class="menu-mobile">
+                    <li id="Home"><a href="./index.html">
+                            <i class="ti-home"></i>
+                            Home
+                        </a></li>
+                    <li><a href="./thoitrang.html">Fashion</a></li>
+                    <li><a href="./congnghe.html">Technology</a></li>
+
+                    <li class="menu_about">
+                        <a href="#">About us</a>
+                        <ul class="About_us">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Tiktok</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Twiter</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./sport.html">Sport</a></li>
+                    <li><a href="./education.html">Education</a></li>
+                    <li><a href=""><i class="ti-search"></i></a></li>
+                </ul>
+                <div class="menu-mobile">
+                    <i class="ti-menu"></i>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    <div id="gototop" onclick="goToTop()" title="go to top">
+        <a href="javascript:;"><img src="./asset/img/brand/icon/gototop.png" alt="GoToTop"></a>
+    </div>
+    <main>
+        <div class="gioithieu">
+            <div class="mucde">
+                <h2 class="scroll__left-to-right">GIỚI THIỆU</h2>
+            </div>
+            <div class="noidung ">
+                <div class="imggioithieu ">
+                    <img class="scroll__left-to-right" src="./asset/img/education/anhgioithieu1.png" alt="ảnh giới thiệu">
+                    <img class="two scroll__right-to-left" src="./asset/img/education/anhgioithieu2.png" alt="ảnh giới thiệu">
+                </div>
+                <div class="noidunggioithieu">
+                    <h1 class="scroll__right-to-left">TIN TỨC GIÁO DỤC</h1>
+                    <div class="scroll__bot-to-top">Hãy khám phá trang web tin tức giáo dục hàng đầu - "GENZ". Tại đây, bạn sẽ được cập nhật những thông tin mới nhất về hệ thống giáo dục, xu hướng học tập, nghiên cứu và cải cách giáo dục. GENZ-EDUCATION mang đến cho bạn cái nhìn toàn diện về thế giới giáo dục, giúp bạn nắm bắt thông tin quan trọng và hiểu rõ hơn về các vấn đề đang diễn ra trong lĩnh vực này. Đừng bỏ lỡ cơ hội truy cập EduNews để luôn đứng đầu trong việc nắm bắt thông tin giáo dục đáng chú ý.</div>
+                 </div>
+            </div>
+        </div>
+        <div class="gioithieumoinhat scroll__left-to-right">
+            <h1>MỚI NHẤT</h1>
+        </div>
+        <div class="noidungmoinhat">
+            <div class="moinhat ">
+                <div class="itemmoinhat scroll__left-to-right">
+                    <a href="./education1.html">
+                        <img class="thumb" src="./asset/img/education/congnghethongtin.jpg" alt="nội dung mới nhất">
+                    </a>
+                    <div class="info">
+                        <span class="date">13 August 2023</span>
+                        <h3 class="title">
+                            <a href="./education1.html">
+                               Công nghệ thông tin có phải là ngành hot ?
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="itemmoinhat scroll__left-to-right ">
+                    <a href="./education2.html">
+                        <img  class="thumb" src="./asset/img/education/Anhxatanh.webp" alt="nội dung mới nhất">
+                    </a>
+                    <div class="info">
+                        <span class="date">12 August 2023</span>
+                        <h3 class="title">
+                            <a href="./education2.html">
+                                Albert Einstein và 7 phát minh vĩ đại làm thay đổi thế giới.
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="itemmoinhat scroll__right-to-left">
+                    <a href="./thethaotrang3.html">
+                        <img  class="thumb" src="./asset/img/education/tom-hermans-9BoqXzEeQqM-unsplash.jpg" alt="nội dung mới nhất">
+                    </a>
+                    <div class="info">
+                        <span class="date">21 July 2023</span>
+                        <h3 class="title">
+                            <a href="./thethaotrang3.html">
+                                Top những cuốn sách phát triển bản thân hay mà bạn nên đọc.
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="itemmoinhat scroll__right-to-left">
+                    <a href="./education4.html">
+                        <img  class="thumb" src="./asset/img/education/giaoduceducation.jpg" alt="nội dung mới nhất">
+                    </a>
+                    <div class="info">
+                        <span class="date">13 July 2023</span>
+                        <h3 class="title">
+                            <a href="./education4.html">
+                                Xu hướng giáo dục phổ biến trên thế giới xung quanh chúng ta.
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="caunoihaytrongthethaoeducation">
+            <div class="gioithieucaunoieducation scroll__left-to-right">
+                <h2>CÂU NÓI HAY TRONG HỌC TẬP</h2>
+            </div>
+            <div class="caunoieducation">
+                <div>– Franklin –</div> 
+                <i>
+                    Học vấn do người siêng năng đạt được, tài sản do người tinh tế sở hữu, quyền lợi do người dũng cảm nắm giữ, thiên đường do người lương thiện xây dựng được... <br>– Franklin –
+                </i>
+            </div>
+        </div>
+
+        <div class="tintuc">
+            <div class="gioithieu">
+                <div class="gioithieutintuc scroll__left-to-right">
+                    <h2>  TIN TỨC</h2>
+                  </div>
+                  <div class="xemthem scroll__right-to-left">
+                      <h2> Xem Thêm</h2>
+                  </div>
+            </div>
+            <div class="noidungtintuc">
+               <div class="padingkhoi">
+                <div class="anhlon scroll__hide-to-see">
+                    <a href="./education5.html">
+                        <img class="thumb2" src="./asset/img/education/book1.jpg" alt="người chạy bộ">
+                    </a>
+                    <div class="info">
+                        <span class="date">6 August 2022</span>
+                        <h3 class="title">
+                            <a href="./education5.html">
+                                Phương Pháp Học Tập Hiệu Quả ?
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="anhbe ">
+                   <div class="noidunganhbe scroll__left-to-right">
+                      <a href="./education6.html">
+                        <img class="thumb2" src="./asset/img/education/phuongphaphoc.jpg" alt="người chạy bộ">
+                       </a>
+                        <div class="info">
+                            <span class="date">6 August 2022</span>
+                            <h3 class="titlebe">
+                                <a href="./education6.html">
+                                    Kinh nghiệm săn học bổng du học !
+                             </a>
+                              </h3>
+                      </div>
+                   </div>
+                   <div class="noidunganhbe scroll__right-to-left">
+                    <a href="./education7.html">
+                      <img class="thumb2" src="./asset/img/education/nguoidothai.jpg" alt="người chạy bộ">
+                     </a>
+                      <div class="info">
+                          <span class="date">1 August 2022</span>
+                          <h3 class="titlebe">
+                              <a href="./education7.html">
+                                6 bài học người Do Thái dạy con.
+                           </a>
+                            </h3>
+                    </div>
+                 </div>
+                 <div class="noidunganhbe scroll__left-to-right">
+                    <a href="./education8.html">
+                      <img class="thumb2" src="./asset/img/education/ly-do-viet-nam-tro-thanh-diem-nong-du-hoc-1.jpg" alt="người chạy bộ">
+                     </a>
+                      <div class="info">
+                          <span class="date">4 August 2022</span>
+                          <h3 class="titlebe">
+                              <a href="./education8.html">
+                                Lý do Việt Nam trở thành điểm nóng du học.
+                           </a>
+                            </h3>
+                    </div>
+                 </div>
+                 <div class="noidunganhbe scroll__right-to-left">
+                    <a href="./education9.html">
+                      <img class="thumb2" src="./asset/img/education/nguoigioi.jpg" alt="người chạy bộ">
+                     </a>
+                      <div class="info">
+                          <span class="date">6 August 2022</span>
+                          <h3 class="titlebe">
+                              <a href="./education9.html">
+                                  Những người giỏi thường trong như thế nào ?
+                           </a>
+                            </h3>
+                    </div>
+                 </div>
+
+                </div>
+               </div>
+               <div class="buttonxemthem">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            </div>
+           
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="main-footer">
+            <div class="row">
+                <!-- cot 1 -->
+                <div class="cot">
+                    <img style="width: 60px;" src="./img/zwhite.png" alt="logo">
+                    <p class="desc">Cần sự giúp đỡ tìm hiểu về lứa tuổi Genz , một thanh xuân đầy màu sắc, hoài niệm, mơ
+                        mộng! Với TIN TỨC GENZ sẽ trả lời với các bạn các điều đó.</p>
+                    <div class="socials">
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/facebook.svg" alt="logo" class="icon facebook">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/instagram.svg" alt="logo" class="icon">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/twitter.svg" alt="logo" class="icon twitter">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/linkedin.svg" alt="logo" class="icon in">
+                        </a>
+                    </div>
+                </div>
+                <!-- cot 2 -->
+                <div class="cot">
+                    <h3 class="title">Company</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!">Features</a>
+                        </li>
+                        <li>
+                            <a href="#!">Our Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#!">Latest News</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 3 -->
+                <div class="cot">
+                    <h3 class="title">Support</h3>
+                    <ul class="list">
+
+                        <li>
+                            <a href="#!">FAQ’s</a>
+                        </li>
+                        <li>
+                            <a href="#!">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#!">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 4 -->
+                <div class="cot">
+                    <h3 class="title">Address</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!"><strong>Location</strong>: August 8, 2023, Ho Chi Minh City, Vietnam</a>
+                        </li>
+                        <li>
+                           <i class="ti-email" style="color: white; font-size: 18px;"></i> <a href="#!"><strong>Email</strong>: nguyenchivy@gmail.com</a>
+                        </li>
+                        <li>
+                          <i class="ti-mobile" style="color: white; font-size: 18px;"></i>   <a href="#!"><strong>Phone:</strong> + 0984 814 468</a>
+                        </li>
+                        <li></li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a href="#!"><strong>Email</strong>: ngoctuong@gmail.com</a>
+                         </li>
+                         <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i>   <a href="#!"><strong>Phone:</strong> + 0984 6465 468</a>
+                         </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> Copyright&copy; 2023 webdesign.gdn All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./asset/js/main.js"></script>
+    <script src="./asset/js/sport.js"></script>
+</body>
+</html>

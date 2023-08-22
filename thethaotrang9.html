@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức Thể Thao</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="shortcut icon" href="./asset/img/brand/icon/ZZ2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./asset/css/thethao.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./asset/js/sport.js"></script>
+    <script src="./asset/js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="button-login" onclick="login()">
+            <div class="text-login">Log In</div>
+        </div>
+        <div class="content-relative">
+            <div class="content-login">
+                <div class="button-close" onclick="closelogin()">
+                    <div class="close">
+                        <p>Close</p>
+                    </div>
+                    <img src="./asset/icon/icon-close.svg" alt="icon-close">
+                </div>
+                <div class="content">
+                    <div class="offer animation">
+                        Sign in to receive special offers
+                    </div>
+                    <div class="name-Login animation">Log In With Email</div>
+                    <div class="input ">
+                        <input type="email" class="email animation" placeholder="Email">
+                        <input type="password" class="email animation" placeholder="Password">
+                    </div>
+                    <div class="dongydichvu animation">
+                        <input type="checkbox" name="vydeptrai" id="dongy">
+                        <label for="checkbox">
+                            Have you read the terms and conditions carefully and are sure to log in and join our
+                            website?</label>
+                    </div>
+                    <div class="submit animation">
+                        <b>SUBMIT</b>
+                    </div>
+                    <div class="support animation">
+                        <p>Need help contact us:</p>
+                        <div class="emailus animation">
+                            <div>
+                                <strong>Email</strong>: Nguyenchivy@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-481-446
+                            </div>
+                            <div>
+                                <strong>Email</strong>: Nguyenngoctuong@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-46-465-468
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="header ">
+            <nav class="headerFixed">
+                <div class="menu">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="headerUnFixed">
+                <div class="menu  ">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </div>
+        <nav class="header-mobile">
+            <div class="menu">
+                <div class="logo">
+                    <div class="logo-img">
+                        <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                    </div>
+                    <div class="logo-text">
+                        <a href="#">Gen Z</a>
+                    </div>
+                </div>
+                <ul class="menu-mobile">
+                    <li id="Home"><a href="./index.html">
+                            <i class="ti-home"></i>
+                            Home
+                        </a></li>
+                    <li><a href="./thoitrang.html">Fashion</a></li>
+                    <li><a href="./congnghe.html">Technology</a></li>
+
+                    <li class="menu_about">
+                        <a href="#">About us</a>
+                        <ul class="About_us">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Tiktok</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Twiter</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./sport.html">Sport</a></li>
+                    <li><a href="./education.html">Education</a></li>
+                    <li><a href=""><i class="ti-search"></i></a></li>
+                </ul>
+                <div class="menu-mobile">
+                    <i class="ti-menu"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="gototop" onclick="goToTop()" title="go to top">
+        <a href="javascript:;"><img src="./asset/img/brand/icon/gototop.png" alt="GoToTop"></a>
+    </div>
+    <main>
+        <section class="main-content">
+            <h1 class="animate__animated animate__flipInX" >Căn bệnh khiến tay vợt cầu lông số 1 thế giới phải giải nghệ ở tuổi 36</h1>
+            <h2 class="animate__animated animate__flipInX" >Sau 19 năm thi đấu và đạt nhiều thành tích khủng, tượng đài cầu lông thế giới Lee Chong Wei bất ngờ tuyên bố giải nghệ ở tuổi 36 sau thời gian dài chống chọi với bệnh ung thư.</h2> 
+            <p class="animate__animated animate__flipInX" >Lee Chong Wei sinh năm 1982 được đánh giá là một trong những VĐV cầu lông tài năng nhất thế giới. Trong lúc sự nghiệp trên đỉnh, Lee Chong Wei từng có 199 tuần liên tiếp đứng ở vị trí số 1 thế giới. Trong 19 năm thi đấu, VĐV này đã giành được 69 danh hiệu lớn nhỏ. Trong đó Lee Chong Wei giành huy chương bạc tại 3 kỳ Thế vận hội Mùa hè 2008, 2012 và 2016, trở thành người Malaysia thứ 6 giành được huy chương tại Thế vận hội.</p>
+            <img  class="animate__animated animate__flipInX" src="./asset/img/sport/leechongwei.jpeg" alt="bóng chuyền">
+            <figcaption class="image-caption scroll__left-to-right">Tay vợt số 1 thế giới của Malaysia bị ung thư mũi</figcaption>
+            <p class="scroll__hide-to-see">Bất ngờ thay vào ngày 13/6, tay vợt huyền thoại đã tổ chức họp báo và chính thức tuyên bố giải nghệ ở tuổi 36 vì ung thư. Đây là quyết định bất đắc dĩ của cựu tay vợt số 1 thế giới vì vào tháng 11 năm ngoái anh từng phủ nhận việc sẽ giã từ sự nghiệp và kỳ vọng lần cuối cùng chinh phục Olympic 2020 tại Tokyo trong năm tới. </p>
+            <p class="scroll__hide-to-see">Tuy nhiên sau thời gian dài chống chọi với căn bệnh ung thư mũi, thể lực Lee Chong Wei đã suy giảm đáng kể, bắt buộc anh phải rời xa môn thể thao gắn bó với mình suốt nhiều năm.</p>
+            <p class="scroll__hide-to-see">"Hôm nay, mọi người đều biết ít nhiều ý định của tôi khi tổ chức cuộc họp báo này. Tôi muốn thông báo rằng mình sẽ nghỉ hưu sau 19 năm thi đấu. Đó là một quyết định khó khăn để đưa ra nhưng tôi không còn lựa chọn nào khác sau khi tham khảo ý kiến của bác sĩ điều trị.</p>
+            <p class="scroll__hide-to-see">Sau khi kiểm tra tình trạng sức khỏe của mình tôi nhận ra mình không còn phù hợp để thực hiện các hoạt động cường độ cao. Việc thi đấu cũng không phù hợp với sức khỏe chính mình", VĐV 36 tuổi chia sẻ.</p>
+           
+           
+            <img class="scroll__hide-to-see" src="./asset/img/sport/huyen-thoai-cau-long-malaysia-lee-chong-wei-tuyen-bo-giai-nghe-vi-ung-thu-2.jpg" alt="ảnh thi đấu ">
+            <figcaption class="image-caption scroll__left-to-right">Lee Chong Wei đau buồn trong buổi họp báo tuyên bố giải nghệ</figcaption>
+            <p class="scroll__bot-to-top">Được biết, Lee Chong Wei được chẩn đoán mắc bệnh ung thư mũi vào tháng 7 năm ngoái. Sau khi điều trị ở Đài Loan, anh vẫn tiếp tục theo đuổi ước mơ và cố gắng trở lại phòng tập. Tuy vậy, sức khỏe của tay vợt người Malaysia không cho phép anh tiếp tục thêm nữa. Từ tháng 4, Lee Chong Wei đã không thể tiếp tục luyện tập và phải tuyên bố giải nghệ.</p>
+            <h2 class="scroll__left-to-right">Căn bệnh ung thư cựu tay vợt số 1 thế giới mắc là gì?</h2>
+            <p class="scroll__bot-to-top">
+                Ung thư mũi là một loại ung thư trong tai – mũi – họng, chỉ chung hiện tượng khối u hình thành và phát triển tại mũi hoặc các xoang mũi. Các khối u ở mũi và xoang có thể lành tính hoặc ác tính. Đây là một trong những bệnh ung thư rất hiếm gặp nhưng cũng không thể chủ quan trước nó.
+            </p>
+            <p class="scroll__bot-to-top">Ung thư mũi thường ảnh hưởng đến đàn ông hơn là phụ nữ, thường xảy ra ở độ tuổi từ 35 – 55. Nếu trong gia đình đã từng có tiền sử bị ung thư mũi, khả năng gen di truyền là rất cao.</p>
+            <h2 class="scroll__left-to-right">Nguyên nhân ung thư mũi là gì?</h2>
+            <p class="scroll__bot-to-top">Hiện nay chưa có nguyên nhân cụ thể của bệnh ung thư mũi nhưng một số nguyên nhân được cho làm tăng tỷ lệ mắc bệnh đó là: </p>
+            <img class="scroll__hide-to-see" src="./asset/img/sport/huyen-thoai-cau-long-malaysia-lee-chong-wei-tuyen-bo-giai-nghe-vi-ung-thu-1.jpg" alt="ảnh thi đấu ">
+            <figcaption class="image-caption scroll__left-to-right">Ung thư mũi là căn bệnh ảnh hưởng đến nam giới nhiều hơn</figcaption>
+           <p class="scroll__bot-to-top"><strong>- Tiếp xúc với một số hóa chất:</strong> một số công việc làm tăng nguy cơ phát triển ung thư trong khoang mũi và xoang, đặc biệt các công việc thường xuyên phải tiếp xúc với các hóa chất độc hại như: bụi gỗ, hóa chất thuộc da, hóa chất mạ kim loại, dầu mỏ, nhà máy chế biến khoáng sản, dầu khí…</p>
+            <p class="scroll__bot-to-top"><strong>- Virus Epstein Barr (EBV)</strong> được coi là một trong những tác nhân hàng đầu gây ra loại ung thư này.</p> 
+            <p class="scroll__bot-to-top"><strong>- Hút thuốc:</strong> Thuốc lá có chứa nitrosamines và các hóa chất khác gây ung thư. Khi hút thuốc, khói có thể đi qua khoang mũi trên đường đến phổi. Người nghiện thuốc lá có nguy cơ mắc ung thư mũi cao hơn người không hút thuốc lá.</p>
+            <h3 class="scroll__left-to-right">Những dấu hiệu của ung thư mũi: </h3>
+            <ul>
+            <li class="scroll__left-to-right"> Nước mũi chỉ chảy ở một bên mũi</li>
+            <li class="scroll__left-to-right"> Chảy máu cam bất thường</li>
+            <li class="scroll__left-to-right"> Nghẹt mũi, suy giảm khứu giác</li>
+            <li class="scroll__left-to-right"> Đau nhức đầu</li>
+            <li class="scroll__left-to-right"> Răng bị lung lay</li>
+            <li class="scroll__left-to-right"> Sưng ở mũi</li>
+        </section>
+
+        <section class="opinion">
+            <div class="opinion">
+                <h3>Ý kiến <i class="ti-slice"></i>
+                    <i class="ti-comments"></i>
+                </h3>
+                <div class="box-area">
+                    <textarea id="txtComment" class="txt_comment block_input" placeholder="Chia sẻ ý kiến của bạn...  "
+                        style="overflow-y: hidden; height: 76px;"></textarea>
+                    <i class="ti-location-arrow send"></i>
+
+                </div>
+                <div class="user-send">
+                    <div class="user">
+                        <div class="img-user"><img src="https://cdn-icons-png.flaticon.com/512/1053/1053244.png" alt="">
+                        </div>
+                        <div class="name-user">Name user</div>
+                        <button>Gửi</button>
+                    </div>
+                </div>
+                <h3></h3>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="main-footer">
+            <div class="row">
+                <!-- cot 1 -->
+                <div class="cot">
+                    <img style="width: 60px;" src="./img/zwhite.png" alt="logo">
+                    <p class="desc">Cần sự giúp đỡ tìm hiểu về lứa tuổi Genz , một thanh xuân đầy màu sắc, hoài niệm, mơ
+                        mộng! Với TIN TỨC GENZ sẽ trả lời với các bạn các điều đó.</p>
+                    <div class="socials">
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/facebook.svg" alt="logo" class="icon facebook">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/instagram.svg" alt="logo" class="icon">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/twitter.svg" alt="logo" class="icon twitter">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/linkedin.svg" alt="logo" class="icon in">
+                        </a>
+                    </div>
+                </div>
+                <!-- cot 2 -->
+                <div class="cot">
+                    <h3 class="title">Company</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!">Features</a>
+                        </li>
+                        <li>
+                            <a href="#!">Our Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#!">Latest News</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 3 -->
+                <div class="cot">
+                    <h3 class="title">Support</h3>
+                    <ul class="list">
+
+                        <li>
+                            <a href="#!">FAQ’s</a>
+                        </li>
+                        <li>
+                            <a href="#!">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#!">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 4 -->
+                <div class="cot">
+                    <h3 class="title">Address</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!"><strong>Location</strong>: 27 Division St, New York, NY 10002, USA</a>
+                        </li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: nguyenchivy@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 814 468</a>
+                        </li>
+                        <li></li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: ngoctuong@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 6465 468</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> Copyright&copy; 2023 webdesign.gdn All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

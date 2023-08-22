@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức Thể Thao</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="shortcut icon" href="./asset/img/brand/icon/ZZ2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./asset/css/thethao.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./asset/js/sport.js"></script>
+    <script src="./asset/js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="button-login" onclick="login()">
+            <div class="text-login">Log In</div>
+        </div>
+        <div class="content-relative">
+            <div class="content-login">
+                <div class="button-close" onclick="closelogin()">
+                    <div class="close">
+                        <p>Close</p>
+                    </div>
+                    <img src="./asset/icon/icon-close.svg" alt="icon-close">
+                </div>
+                <div class="content">
+                    <div class="offer animation">
+                        Sign in to receive special offers
+                    </div>
+                    <div class="name-Login animation">Log In With Email</div>
+                    <div class="input ">
+                        <input type="email" class="email animation" placeholder="Email">
+                        <input type="password" class="email animation" placeholder="Password">
+                    </div>
+                    <div class="dongydichvu animation">
+                        <input type="checkbox" name="vydeptrai" id="dongy">
+                        <label for="checkbox">
+                            Have you read the terms and conditions carefully and are sure to log in and join our
+                            website?</label>
+                    </div>
+                    <div class="submit animation">
+                        <b>SUBMIT</b>
+                    </div>
+                    <div class="support animation">
+                        <p>Need help contact us:</p>
+                        <div class="emailus animation">
+                            <div>
+                                <strong>Email</strong>: Nguyenchivy@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-481-446
+                            </div>
+                            <div>
+                                <strong>Email</strong>: Nguyenngoctuong@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-46-465-468
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="header ">
+            <nav class="headerFixed">
+                <div class="menu">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="headerUnFixed">
+                <div class="menu  ">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </div>
+        <nav class="header-mobile">
+            <div class="menu">
+                <div class="logo">
+                    <div class="logo-img">
+                        <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                    </div>
+                    <div class="logo-text">
+                        <a href="#">Gen Z</a>
+                    </div>
+                </div>
+                <ul class="menu-mobile">
+                    <li id="Home"><a href="./index.html">
+                            <i class="ti-home"></i>
+                            Home
+                        </a></li>
+                    <li><a href="./thoitrang.html">Fashion</a></li>
+                    <li><a href="./congnghe.html">Technology</a></li>
+
+                    <li class="menu_about">
+                        <a href="#">About us</a>
+                        <ul class="About_us">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Tiktok</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Twiter</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./sport.html">Sport</a></li>
+                    <li><a href="./education.html">Education</a></li>
+                    <li><a href=""><i class="ti-search"></i></a></li>
+                </ul>
+                <div class="menu-mobile">
+                    <i class="ti-menu"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="gototop" onclick="goToTop()" title="go to top">
+        <a href="javascript:;"><img src="./asset/img/brand/icon/gototop.png" alt="GoToTop"></a>
+    </div>
+    <main>
+        <section class="main-content">
+            <h1 class="animate__animated animate__pulse">Giá trị thực của Conor McGregor: Lịch sử ví tiền, thu nhập sự nghiệp cho ngôi sao MMA và cựu vô địch UFC</h1>
+           <br>
+          <img class="animate__animated animate__pulse"  src="./asset/img/sport/connor2.jpg" alt="bóng chuyền">
+        <p class="scroll__bot-to-top">
+
+            Một trong những câu chuyện thành công lớn nhất trong lịch sử thể thao đối kháng, tên tuổi của Conor McGregor vượt ra ngoài MMA. Người “khét tiếng” đã xây dựng một đế chế bên ngoài lồng bát giác, và anh ta không có dấu hiệu chậm lại.</p>
+        <br>
+         <p class="scroll__bot-to-top">Võ sĩ người Ireland học cách tự bảo vệ mình khi mới 12 tuổi tại câu lạc bộ quyền anh Crumlin. Trở thành chuyên nghiệp vào năm 2008, McGregor đã gây ảnh hưởng với Cage Warriors trước khi gia nhập UFC vào năm 2013. 10-4 với sự thăng hạng, thái độ thẳng thắn của McGregor đã khiến anh trở thành một trong những võ sĩ có thị trường nhất trong lịch sử UFC.</p>
+        <br>
+        <p class="scroll__bot-to-top">Nhà vô địch kép đầu tiên tại UFC, McGregor gần đây đã tập trung vào các thương hiệu ngoài chiến đấu và sự nghiệp diễn xuất của anh ấy. Tuy nhiên, anh ấy vẫn có cảm giác muốn thi đấu.</p>
+        <p class="scroll__bot-to-top">Kể từ năm 2016, McGregor đang thua 3-4 trong bát giác và đang có chuỗi hai trận thua. Trong trận đấu tay ba với Dustin Poirier vào năm 2021, anh ấy đã thua bằng TKO và cũng bị gãy xương chày. Trải qua ca phẫu thuật, McGregor đang dần chuẩn bị cho việc trở lại lồng bát giác.</p>
+        <p class="scroll__bot-to-top">Anh ấy sẽ đối đầu với Michael Chandler vào khoảng năm 2023, khi cả hai đang huấn luyện mùa mới nhất của The Ultimate Fighter. Một chiến thắng có thể đưa anh ấy trở lại đỉnh cao.</p>
+         <p class="scroll__bot-to-top">Jugo Mobile xem xét cách McGregor đã tích lũy tài sản của mình và vị trí của anh ấy trong số những vận động viên giàu có và có ảnh hưởng nhất trên thế giới hiện nay.</p>   
+        <h2 class="scroll__left-to-right">Giá trị ròng của Conor McGregor: McGregor kiếm được bao nhiêu?</h2>
+        <p class="scroll__bot-to-top">như oer Giá trị ròng của người nổi tiếngGiá trị tài sản ròng của McGregor là khoảng 200 triệu USD.</p>
+        <p class="scroll__bot-to-top">thể thao đưa ra danh sách 50 vận động viên được trả lương cao nhất mọi thời đại. Người đàn ông 34 tuổi này đứng thứ 33 mọi thời đại với 530 triệu USD.</p>
+        <p class="scroll__bot-to-top">Ngoài chiến đấu, McGregor đã kiếm được khoảng 600 triệu đô la sau khi bán phần lớn cổ phần của mình trong thương hiệu rượu whisky số 12 thích hợp của mình.</p>
+        <h2 class="scroll__left-to-right">Thu nhập trong sự nghiệp của Conor McGregor</h2>
+        <p class="scroll__bot-to-top">Theo Thể thao hàng ngày, khi gia nhập UFC vào năm 2013, McGregor kiếm được khoảng 76.000 USD. Đánh bại Jose Aldo để giành đai hạng lông UFC năm 2015, McGregor mang về nhà 580.000 USD. Đối đầu với Nate Diaz, McGregor kiếm được hơn 1 triệu USD trong trận đầu tiên và 3 triệu USD trong trận thứ hai. Đánh bại Eddie Alvarez để giành đai hạng nhẹ UFC và trở thành nhà vô địch kép, McGregor kiếm được từ 5-7 triệu USD.</p>    
+        <p class="scroll__bot-to-top">Thi đấu trong trận quyền anh với Floyd Mayweather vào năm 2017, McGregor đã kiếm được khoảng 100 triệu USD. Cuộc chiến đó đã đẩy anh ta lên vị trí siêu sao.</p>
+        <p class="scroll__bot-to-top">Không hoạt động cho đến năm 2018, McGregor kiếm được khoảng 3 triệu đô la so với Khabib Nurmagomedov. Chống lại Donald Cerrone vào năm 2020, McGregor được đảm bảo 5 triệu đô la.</p>
+        <p class="scroll__bot-to-top">Trong trận tái đấu với Dustin Poirier vào tháng 1 năm 2021, McGregor kiếm được khoảng 5 triệu USD. Anh ấy đã mang về nhà khoảng 200.000 đô la khi họ giao đấu lần đầu tiên vào năm 2014. Trong trận đấu tay ba vào tháng 7, khi McGregor thua nhưng bị thương, anh ấy đã nhận được thêm 5 triệu đô la.</p>
+        <h2 class="scroll__left-to-right">Sự ủng hộ của Conor McGregor</h2>
+        <p class="scroll__bot-to-top">McGregor đã thực hiện các thỏa thuận chứng thực với Beats by Dre, Monster Energy, Reebok, Bud Light và Burger King.</p>
+        <p class="scroll__bot-to-top">Anh ấy đã ký hợp tác thời trang với David August, cung cấp những bộ vest (mang nhãn hiệu “August McGregor”) cho những người trẻ tuổi.</p>   
+        <p class="scroll__bot-to-top">UFC đã mua lại số 12 thích hợp của McGregor, vì thương hiệu này có mặt trên tất cả các chương trình của UFC, bao gồm cả trên canvas bên trong hình bát giác.</p>
+            <h2 class="scroll__left-to-right">Ảnh hưởng truyền thông xã hội của Conor McGregor</h2>
+        <p class="scroll__bot-to-top">McGregor đã duy trì sự hiện diện tích cực và thường thẳng thắn trên mạng xã hội trong vài năm qua.</p>
+        <p class="scroll__bot-to-top">McGregor có 15 triệu người theo dõi trên Facebook, 9,9 triệu người theo dõi trên Twitter và 46,2 triệu người theo dõi trên Instagram.</p>
+        <h2 class="scroll__left-to-right">Tổ chức từ thiện của Conor McGregor</h2>
+        <img class="scroll__hide-to-see" src="./asset/img/sport/conor.jpg" alt="">
+        <p class="scroll__bot-to-top">Gần đây, McGregor đã quyên góp 1 triệu đô la cho Tổ chức Đường hầm đến Towers, nơi cung cấp những ngôi nhà không thế chấp cho Gold Star và những gia đình phản ứng đầu tiên có con nhỏ.</p>  
+            <p class="scroll__bot-to-top">Trong thời kỳ đỉnh điểm của đại dịch COVID-19, McGregor đã trả tiền và mở nhà cho các gia đình vô gia cư ở Dublin. Anh ấy cũng đã giao 1,4 triệu đô la Thiết bị Bảo vệ Cá nhân cho các nhân viên y tế tại các bệnh viện ở Ireland.
+
+                Sau khi McGregor thua Poirier vào tháng 1 năm 2021, anh ấy đã giữ lời hứa của mình và quyên góp 500 nghìn đô la cho tổ chức từ thiện Good Fight Foundation của Poirier.</p> 
+        </section>
+
+        <section class="opinion">
+            <div class="opinion">
+                <h3>Ý kiến <i class="ti-slice"></i>
+                    <i class="ti-comments"></i>
+                </h3>
+                <div class="box-area">
+                    <textarea id="txtComment" class="txt_comment block_input" placeholder="Chia sẻ ý kiến của bạn...  "
+                        style="overflow-y: hidden; height: 76px;"></textarea>
+                    <i class="ti-location-arrow send"></i>
+
+                </div>
+                <div class="user-send">
+                    <div class="user">
+                        <div class="img-user"><img src="https://cdn-icons-png.flaticon.com/512/1053/1053244.png" alt="">
+                        </div>
+                        <div class="name-user">Name user</div>
+                        <button>Gửi</button>
+                    </div>
+                </div>
+                <h3></h3>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="main-footer">
+            <div class="row">
+                <!-- cot 1 -->
+                <div class="cot">
+                    <img style="width: 60px;" src="./img/zwhite.png" alt="logo">
+                    <p class="desc">Cần sự giúp đỡ tìm hiểu về lứa tuổi Genz , một thanh xuân đầy màu sắc, hoài niệm, mơ
+                        mộng! Với TIN TỨC GENZ sẽ trả lời với các bạn các điều đó.</p>
+                    <div class="socials">
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/facebook.svg" alt="logo" class="icon facebook">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/instagram.svg" alt="logo" class="icon">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/twitter.svg" alt="logo" class="icon twitter">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/linkedin.svg" alt="logo" class="icon in">
+                        </a>
+                    </div>
+                </div>
+                <!-- cot 2 -->
+                <div class="cot">
+                    <h3 class="title">Company</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!">Features</a>
+                        </li>
+                        <li>
+                            <a href="#!">Our Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#!">Latest News</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 3 -->
+                <div class="cot">
+                    <h3 class="title">Support</h3>
+                    <ul class="list">
+
+                        <li>
+                            <a href="#!">FAQ’s</a>
+                        </li>
+                        <li>
+                            <a href="#!">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#!">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 4 -->
+                <div class="cot">
+                    <h3 class="title">Address</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!"><strong>Location</strong>: 27 Division St, New York, NY 10002, USA</a>
+                        </li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: nguyenchivy@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 814 468</a>
+                        </li>
+                        <li></li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: ngoctuong@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 6465 468</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> Copyright&copy; 2023 webdesign.gdn All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

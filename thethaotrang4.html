@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức Thể Thao</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="shortcut icon" href="./asset/img/brand/icon/ZZ2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./asset/css/thethao.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./asset/js/sport.js"></script>
+    <script src="./asset/js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="button-login" onclick="login()">
+            <div class="text-login">Log In</div>
+        </div>
+        <div class="content-relative">
+            <div class="content-login">
+                <div class="button-close" onclick="closelogin()">
+                    <div class="close">
+                        <p>Close</p>
+                    </div>
+                    <img src="./asset/icon/icon-close.svg" alt="icon-close">
+                </div>
+                <div class="content">
+                    <div class="offer animation">
+                        Sign in to receive special offers
+                    </div>
+                    <div class="name-Login animation">Log In With Email</div>
+                    <div class="input ">
+                        <input type="email" class="email animation" placeholder="Email">
+                        <input type="password" class="email animation" placeholder="Password">
+                    </div>
+                    <div class="dongydichvu animation">
+                        <input type="checkbox" name="vydeptrai" id="dongy">
+                        <label for="checkbox">
+                            Have you read the terms and conditions carefully and are sure to log in and join our
+                            website?</label>
+                    </div>
+                    <div class="submit animation">
+                        <b>SUBMIT</b>
+                    </div>
+                    <div class="support animation">
+                        <p>Need help contact us:</p>
+                        <div class="emailus animation">
+                            <div>
+                                <strong>Email</strong>: Nguyenchivy@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-481-446
+                            </div>
+                            <div>
+                                <strong>Email</strong>: Nguyenngoctuong@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-46-465-468
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="header ">
+            <nav class="headerFixed">
+                <div class="menu">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="headerUnFixed">
+                <div class="menu  ">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </div>
+        <nav class="header-mobile">
+            <div class="menu">
+                <div class="logo">
+                    <div class="logo-img">
+                        <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                    </div>
+                    <div class="logo-text">
+                        <a href="#">Gen Z</a>
+                    </div>
+                </div>
+                <ul class="menu-mobile">
+                    <li id="Home"><a href="./index.html">
+                            <i class="ti-home"></i>
+                            Home
+                        </a></li>
+                    <li><a href="./thoitrang.html">Fashion</a></li>
+                    <li><a href="./congnghe.html">Technology</a></li>
+
+                    <li class="menu_about">
+                        <a href="#">About us</a>
+                        <ul class="About_us">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Tiktok</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Twiter</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./sport.html">Sport</a></li>
+                    <li><a href="./education.html">Education</a></li>
+                    <li><a href=""><i class="ti-search"></i></a></li>
+                </ul>
+                <div class="menu-mobile">
+                    <i class="ti-menu"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="gototop" onclick="goToTop()" title="go to top">
+        <a href="javascript:;"><img src="./asset/img/brand/icon/gototop.png" alt="GoToTop"></a>
+    </div>
+    <main>
+        <section class="main-content">
+            <h1 class="animate__animated animate__bounceInDown">Trượt tuyết ở Áo - Trải nghiệm hấp dẫn không nên bỏ lỡ</h1>
+            <p class="animate__animated animate__bounceInDown">Áo là một quốc gia không giáp biển nằm tại Trung Âu. Khoảng 60% diện tích nước Áo là đồi núi, gồm một phần của núi Alpen về phía đông. Oberösterreich và Niederösterreich là hai vùng núi chạy dài đến cả Cộng hoà Séc và Bavaria (Đức).</p>
+            <p class="animate__animated animate__bounceInDown">Khí hậu khô trải dài từ tây sang đông và trở thành khí hậu lục địa ở các vùng phía đông và đông nam nước Áo. Mùa đông với nhiều tuyết đã đem lại cho ngành du lịch của Áo một lượng lớn du khách yêu bộ môn trượt tuyết đổ về đây vào những dịp nghỉ lễ. Thời gian có ánh nắng mặt trời lâu hơn ở miền bắc nước Đức từ 10 đến 20 phần trăm nên cũng là một lợi thế thu hút đa số du khách từ quốc gia này.</p>
+            <br>
+              <img class="animate__animated animate__bounceInDown" src="./asset/img/sport/go-and-share-kinh-nghiem-truot-tuyet-tai-ao-1.webp" alt="bóng chuyền">
+            <figcaption class="image-caption  scroll__bot-to-top">Đường trượt đẹp cùng thời tiết thuận lợi là sự lựa chọn hàng đầu cho du khách tới đây</figcaption>
+            <p class="scroll__bot-to-top">Với 284 km đường trượt tuyết, hơn 90 thang máy và cáp treo hiện đại và hơn 80 các nơi lưu trú trên núi,cuộc vui mùa đông ở đây thật tuyệt vời và đầy sự trải nghiệm thú vị đã thu hút được lượng lớn các du khách từ khắp nơi đổ về.</p>
+            <br>
+            <img class="scroll__hide-to-see" src="./asset/img/sport/go-and-share-kinh-nghiem-truot-tuyet-tai-ao-2.webp" alt="ảnh thi đấu ">
+            <figcaption class="image-caption  scroll__bot-to-top">Đường trượt yêu thích cho những du khách tới đây</figcaption>
+            <p class="scroll__bot-to-top">Khu trượt tuyết Skiwelt Wilder Kaiser-Brixeltal là khu trượt tuyết đầu tiên nằm ngay sau biên giới Đức-Áo.Do điều kiện địa lý và khí hậu, khu trượt tuyết này có độ tin cậy tuyệt đối nhất với các du khách.</p>
+            <br>
+            <img class="scroll__hide-to-see" src="./asset/img/sport/go-and-share-kinh-nghiem-truot-tuyet-tai-ao-5.webp" alt="bóng chuyền">
+            <figcaption class="image-caption  scroll__bot-to-top">Đường trượt đỏ có chút dốc và uốn lượn</figcaption>
+            
+    
+            <p class="scroll__bot-to-top">Bạn có biết cảm giác khi thắt dây giày trượt tuyết lần đầu tiên sẽ như thế nào không? Mọi thứ đều có cảm giác lạ lẫm vướng víu vào một đôi giày cố định.Trượt tuyết đúng cách sẽ dễ dàng nếu bạn tuân theo ba nguyên tắc cơ bản: các cạnh lên và xuống, dịch chuyển trọng tâm và chuyển động xoay. Các cạnh lên và xuống có nghĩa là các cạnh của ván trượt được sử dụng khi vào cua. Điều quan trọng là tận dụng trọng tâm của cơ thể. Trên hết, chuyển động đi lên đảm bảo rằng người trượt tuyết có thể đi quanh khúc cua dễ dàng hơn. Điều quan trọng nữa là phải thực hiện động tác xoay tròn không chỉ bằng chân mà còn bằng toàn bộ cơ thể.</p>
+            <img class="scroll__hide-to-see " src="./asset/img/sport/go-and-share-kinh-nghiem-truot-tuyet-tai-ao-6.webp" alt="bóng chuyền">
+            <figcaption class="image-caption scroll__bot-to-top">Cùng bắt đầu với những đường trượt phẳng rộng</figcaption>
+            <p class="scroll__bot-to-top">Hãy để mông của bạn trở thành một ngọn núi và cơ thể của bạn là một quả chuối, để ván trượt tự động nâng lên một cách chính xác là một nguyên lý giúp bạn có thể thành thạo bộ môn này.</p>
+            <h3 class="scroll__bot-to-top">10 lời khuyên kỹ năng cho người lần đầu tiên trượt tuyết</h3>
+            <ul>
+                <li class="scroll__bot-to-top">Tập nâng cao và hạ thấp cơ thể.</li>
+            <li class="scroll__bot-to-top">Di chuyển đồ trượt uốn như hình quả chuối (hay như hình của một góc pizza).</li>
+            <li class="scroll__bot-to-top">Dùng thân trên làm điểm tựa.</li>
+            <li class="scroll__bot-to-top">Sử dụng đúng trọng tâm (trước-sau, lên-xuống, trái-phải)</li>
+            <li class="scroll__bot-to-top">Thực hiển chuyển động tiến về phía trước từ từ (hãy thả lỏng, thư giãn đôi chân và để đầu gối của bạn điều khiển cơ thể chinh phục đường trượt)</li>
+            <li class="scroll__bot-to-top">Tập trung xoay bàn chân và cẳng chân (chuyển trọng tâm cơ thể dồn về trước)</li>
+            <li class="scroll__bot-to-top">
+                Tay luôn đưa về phía trước để định hướng đường trượt dễ dàng hơn.</li>
+            <li class="scroll__bot-to-top">Nhấn vào giày trượt tuyết để điều khiển tốc độ bạn mong muốn.</li>
+            <li class="scroll__bot-to-top">Thực hành mọi thứ đầu tiên trên con dốc phẳng.</li>
+            <li class="scroll__bot-to-top">Cuối cùng quan trọng nhất là luôn mỉm cười với thiên nhiên trước mặt nha.</li>
+            </ul>
+        </section>
+
+        <section class="opinion">
+            <div class="opinion">
+                <h3>Ý kiến <i class="ti-slice"></i>
+                    <i class="ti-comments"></i>
+                </h3>
+                <div class="box-area">
+                    <textarea id="txtComment" class="txt_comment block_input" placeholder="Chia sẻ ý kiến của bạn...  "
+                        style="overflow-y: hidden; height: 76px;"></textarea>
+                    <i class="ti-location-arrow send"></i>
+
+                </div>
+                <div class="user-send">
+                    <div class="user">
+                        <div class="img-user"><img src="https://cdn-icons-png.flaticon.com/512/1053/1053244.png" alt="">
+                        </div>
+                        <div class="name-user">Name user</div>
+                        <button>Gửi</button>
+                    </div>
+                </div>
+                <h3></h3>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="main-footer">
+            <div class="row">
+                <!-- cot 1 -->
+                <div class="cot">
+                    <img style="width: 60px;" src="./img/zwhite.png" alt="logo">
+                    <p class="desc">Cần sự giúp đỡ tìm hiểu về lứa tuổi Genz , một thanh xuân đầy màu sắc, hoài niệm, mơ
+                        mộng! Với TIN TỨC GENZ sẽ trả lời với các bạn các điều đó.</p>
+                    <div class="socials">
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/facebook.svg" alt="logo" class="icon facebook">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/instagram.svg" alt="logo" class="icon">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/twitter.svg" alt="logo" class="icon twitter">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/linkedin.svg" alt="logo" class="icon in">
+                        </a>
+                    </div>
+                </div>
+                <!-- cot 2 -->
+                <div class="cot">
+                    <h3 class="title">Company</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!">Features</a>
+                        </li>
+                        <li>
+                            <a href="#!">Our Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#!">Latest News</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 3 -->
+                <div class="cot">
+                    <h3 class="title">Support</h3>
+                    <ul class="list">
+
+                        <li>
+                            <a href="#!">FAQ’s</a>
+                        </li>
+                        <li>
+                            <a href="#!">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#!">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 4 -->
+                <div class="cot">
+                    <h3 class="title">Address</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!"><strong>Location</strong>: 27 Division St, New York, NY 10002, USA</a>
+                        </li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: nguyenchivy@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 814 468</a>
+                        </li>
+                        <li></li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: ngoctuong@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 6465 468</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> Copyright&copy; 2023 webdesign.gdn All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,620 @@
+/* header */
+header{
+    position: relative;
+    height: 100vh;
+}
+
+.anhchuyen{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.anhchuyen .list{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    width: max-content;
+    transition: left 2s;
+}
+.anhchuyen .list img{
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.anhchuyen .buttons{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    right: 30%;
+    display: flex;
+    width: 80%;
+    justify-content:space-between;
+}
+.anhchuyen .buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color:  black;
+    border: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+.anhchuyen .buttons i{
+    font-size: 18px;
+}
+.anhchuyen .buttons button:active  {
+    transform: scale(0.7); 
+}
+.anhchuyen .dots{
+    position: absolute;
+    bottom: 1rem;
+    color: #fff;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.dots li{
+    list-style: none;
+    width: 1rem;
+    height: 1rem;
+    background-color: gray;
+    margin: 2rem;
+    border-radius: 2rem; 
+    transition: width 1s;
+}
+.anhchuyen .active{
+    width: 2rem;
+}
+/* end header */
+
+.menu > ul > li:first-child > a {
+    background:none;
+    color: gray;
+}
+.menu > ul > li:first-child:hover > a {
+    background:rgba(230, 230, 255, 0.6);
+    color: brown;
+}
+.menu > ul > li:nth-child(5) > a {
+    background:rgba(230, 230, 255, 0.6);
+    color: brown;
+}
+.menu > ul > li:nth-child(5){
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+
+main .gioithieu{
+    margin-top: 4rem;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+    color: #3f3f3f;
+}
+.gioithieu .mucde{
+    font-size: 3.5rem;
+    position: relative;
+}
+.gioithieu .mucde::before{
+    position: absolute;
+    content: '';
+    width: 0.5rem;
+    height: 65%;
+    background-color:#565553;
+    left: -1rem;
+    top: 0.5rem;
+    
+}
+.gioithieu .noidung{
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.6;
+}
+.gioithieu .noidung h1{
+    margin-bottom: 1.8rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+/* end giới thiệu */
+
+
+/* content moi nhất */
+.gioithieumoinhat{
+    position: relative;
+    color: #3f3f3f;
+    font-size: 3.5rem;
+    margin-top: 6rem;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+    color: #3f3f3f;
+}
+.gioithieumoinhat::before{
+    position: absolute;
+    content: '';
+    width: 0.5rem;
+    height: 65%;
+    background-color:#565553;
+    left: -1rem;
+    top: 0.5rem;
+    
+}
+.noidungmoinhat{
+    border-radius: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+    height: 55rem;
+    background-color: rgb(218, 211, 211);
+    padding: 8rem 5rem 8rem 5rem;
+}
+.noidungmoinhat .moinhat{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.noidungmoinhat .itemmoinhat{
+    width: 30%;
+    height: 42rem;
+    border-radius: 1rem;
+    background-color: rgb(192, 185, 185);
+    overflow: hidden;
+}
+.noidungmoinhat .itemmoinhat:hover{
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 35%);
+}
+.noidungmoinhat .thumb{
+    width: 100%;
+    border-radius: 1.2rem 1.2rem 0 0;
+    height: 30rem;
+    object-fit: cover;
+    transition: transform .45s cubic-bezier(.45,0,.55,1);
+
+}
+.noidungmoinhat .thumb:hover{
+    transform: scale(1.05);
+}
+.noidungmoinhat .info{
+    padding: 2rem 2rem 2rem;
+}
+.date{
+    position: relative;
+    font-size: 1.4rem;
+    display: inline-flex;
+    align-items: center;
+    color: #292928;
+    padding-bottom:1rem ;
+  
+}
+.date::before{
+    content: "";
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color: #ffbe0e;
+    display: inline-block;
+    margin-right: 0.4rem;
+}
+.noidungmoinhat .info .date::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    height: 0.1rem;
+    background: #86837c;
+    right: -2.7rem;
+    border-radius: 0.05rem;
+
+}
+.noidungmoinhat .info .title a{
+    display: inline-block;
+    margin-top: 1.2rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #171100;
+}
+/* end content mới nhất */
+
+
+
+
+/* câu nói hay trong thể thao */
+.caunoihaytrongthethao{
+    margin-top: 6rem;
+    width: 100%;
+    height: 50rem;
+    
+}
+.caunoihaytrongthethao .gioithieucaunoi{
+    position: relative;
+    color: #3f3f3f;
+    font-size: 3.5rem;
+    margin-top: 6rem;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+    color: #3f3f3f;
+}
+.gioithieucaunoi::before{
+    position: absolute;
+    content: '';
+    width: 0.5rem;
+    height: 65%;
+    background-color:#565553;
+    left: -1rem;
+    top: 0.5rem;
+    
+}
+.caunoihaytrongthethao .caunoi{
+    padding: 0 60px;
+    margin-top: 40px;
+    height: 40rem;
+    background-color: transparent;
+    background-image: url(/asset/img/sport/anh72.jpg);
+    background-position: 64% -11%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+.caunoihaytrongthethao .caunoi i{
+    position: absolute;
+    top: 12rem;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.75;
+    color: #dbd6d6;
+}
+.caunoihaytrongthethao .caunoi div{
+    position: absolute;
+    top: 6rem;
+    font-size: 3rem;
+    text-align: center;
+    left:10%;
+    color: #656360;
+}
+
+/* end câu nói hay */
+
+
+/* tin tuc */
+.tintuc{
+    position: relative;
+    margin-top: 7rem;
+    width: 100%;
+    height: 100rem;
+   
+}
+.tintuc .gioithieutintuc{
+    position: relative;
+    color: #3f3f3f;
+    font-size: 3.5rem;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    
+}
+.tintuc .gioithieutintuc::before{
+    position: absolute;
+    content: '';
+    width: 0.5rem;
+    height: 65%;
+    background-color:#565553;
+    left: -1rem;
+    top: 0.5rem;
+}
+.tintuc .gioithieu{
+    display: flex;
+}
+.xemthem{
+    position: absolute;
+    color: #3f3f3f;
+    font-size: 3.5rem;
+    right: 6rem;
+    top: 6.2rem;
+    cursor: pointer;
+
+}
+.tintuc .noidungtintuc{
+    position: relative;
+    background-color: #292928;
+    height: 100%;
+    margin-top: 3rem;
+}
+
+.tintuc .noidungtintuc .padingkhoi{
+    height: 80%;
+    /* margin-top: 5rem; */
+    padding-left: 5rem;
+    padding-top:10rem ;
+    padding-right: 5rem;
+    display: flex;
+    gap: 1rem;
+}
+.thumb2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .45s cubic-bezier(.45,0,.55,1);
+
+}
+.thumb2:hover{
+    transform: scale(1.05);
+}
+.tintuc .padingkhoi .anhlon{
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.tintuc .anhlon .date{
+    font-size: 3rem;
+    color: #d0cec9;
+}
+.tintuc .padingkhoi .anhbe{
+    width: 50%;
+    height: 50rem;
+    
+}
+
+
+.tintuc .date::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    height: 0.3rem;
+    background: #706f6c;
+    right: -3rem;
+    border-radius: 0.05rem;
+
+}
+.tintuc .info{
+    margin-left: 3rem;
+    position: absolute;
+    bottom: 2rem;
+}
+.tintuc .anhbe .date{
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: #d0cec9;
+}
+.tintuc .info .title{
+    
+    margin-top: 0.6rem;
+}
+.tintuc .info .title a{
+    font-size: 2rem;
+    color: white;
+}
+.tintuc .anhbe{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.tintuc .anhbe .noidunganhbe .info{
+    margin-top: 3rem;
+}
+
+.tintuc .anhbe .noidunganhbe{
+    position: relative;
+    width: 48%;
+    overflow: hidden;
+    height: 69%;
+}
+
+.tintuc .anhbe .noidunganhbe .titlebe{
+    margin-top: 1rem;
+}
+.tintuc .info .titlebe a{
+    font-size: 1.5rem;
+    color: white;
+}
+.tintuc .noidungtintuc .buttonxemthem{
+    position: absolute;
+    bottom: 12rem;
+    right: 50%;
+    right: 50%;
+}
+.tintuc .noidungtintuc .buttonxemthem ul{
+    display: flex;
+    gap: 2rem;
+}
+.tintuc .noidungtintuc .buttonxemthem ul li{
+    list-style: none;
+    width: 1rem;
+    height: 1rem;
+    background-color: rgb(224, 199, 199);
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.tintuc .noidungtintuc .buttonxemthem li:first-child {
+    background-color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* footer */
+  .footer {
+    margin-top: 10rem;
+    padding: 96px 135px 0;
+    background: #2e2100;
+}
+.footer .row {
+    display: flex;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554b;
+}
+footer .row .cot {
+    width: 21.6%;
+}
+
+.footer .row .cot:first-child {
+    width: 35%;
+}
+
+.footer .desc {
+    margin-top: 18px;
+    max-width: 267px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+
+.footer .socials {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+}
+
+
+.footer .list {
+    margin-top: 28px;
+}
+
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+header{
+    height: 45vh;
+    width: 100vw;
+}
+.content-login{
+    width: 100vw;
+    height: 100vh;
+   
+}
+.content-login .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.caunoihaytrongthethao .caunoi{
+    background-position: 60% -11%
+}
+
+.noidungmoinhat {
+    height: auto;
+    padding: 5rem 5rem;
+}
+
+.gioithieu .noidung {
+    text-align: justify;
+    font-size: 21.5px;
+}
+.gioithieu .noidung  > h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.noidungmoinhat .moinhat {
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.noidungmoinhat .itemmoinhat {
+    width: 45%;
+    margin: 10px;
+    height: 46rem;
+}
+.noidungmoinhat .info .title a{
+    font-size: 25px;
+    font-weight: 600;
+    color: #3f3f3f;
+}
+.date{
+    font-size: 18px;
+}
+.caunoihaytrongthethao .gioithieucaunoi > h2{
+    font-size: 3.5rem;
+}
+
+.caunoihaytrongthethao .caunoi {
+    height: 53rem;
+}
+.tintuc .noidungtintuc .buttonxemthem {
+    bottom: 50px;
+}
+.tintuc .noidungtintuc{
+    position: unset;
+    height: auto;
+    height: 140rem;
+}
+.tintuc .noidungtintuc .padingkhoi {
+    flex-direction: column;
+    height: 100%;
+}
+.tintuc .padingkhoi .anhlon{
+    width: 100%;
+}
+.tintuc .anhbe {
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.tintuc .padingkhoi .anhbe {
+    width: 100%;
+}
+
+.tintuc{
+    height: auto;
+}
+.footer {
+    margin-top: 0;
+}
+.tintuc .info .title > a{
+    font-size: 30px;
+    color: #dbd6d6;
+}
+.tintuc .anhbe .noidunganhbe .titlebe > a{
+    font-size: 25px;
+    color: #dbd6d6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

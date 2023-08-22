@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức Thể Thao</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="shortcut icon" href="./asset/img/brand/icon/ZZ2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./asset/css/thethao.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./asset/js/sport.js"></script>
+    <script src="./asset/js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="button-login" onclick="login()">
+            <div class="text-login">Log In</div>
+        </div>
+        <div class="content-relative">
+            <div class="content-login">
+                <div class="button-close" onclick="closelogin()">
+                    <div class="close">
+                        <p>Close</p>
+                    </div>
+                    <img src="./asset/icon/icon-close.svg" alt="icon-close">
+                </div>
+                <div class="content">
+                    <div class="offer animation">
+                        Sign in to receive special offers
+                    </div>
+                    <div class="name-Login animation">Log In With Email</div>
+                    <div class="input ">
+                        <input type="email" class="email animation" placeholder="Email">
+                        <input type="password" class="email animation" placeholder="Password">
+                    </div>
+                    <div class="dongydichvu animation">
+                        <input type="checkbox" name="vydeptrai" id="dongy">
+                        <label for="checkbox">
+                            Have you read the terms and conditions carefully and are sure to log in and join our
+                            website?</label>
+                    </div>
+                    <div class="submit animation">
+                        <b>SUBMIT</b>
+                    </div>
+                    <div class="support animation">
+                        <p>Need help contact us:</p>
+                        <div class="emailus animation">
+                            <div>
+                                <strong>Email</strong>: Nguyenchivy@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-481-446
+                            </div>
+                            <div>
+                                <strong>Email</strong>: Nguyenngoctuong@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-46-465-468
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="header ">
+            <nav class="headerFixed">
+                <div class="menu">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="headerUnFixed">
+                <div class="menu  ">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                        </div>
+                        <div class="logo-text">
+                            <a href="#">Gen Z</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li id="Home"><a href="./index.html">
+                                <i class="ti-home"></i>
+                                Home
+                            </a></li>
+                        <li><a href="./thoitrang.html">Fashion</a></li>
+                        <li><a href="./congnghe.html">Technology</a></li>
+                        <li class="menu_about">
+                            <a href="#">About us</a>
+                            <ul class="About_us">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Tiktok</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Twiter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./sport.html">Sport</a></li>
+                        <li><a href="./education.html">Education</a></li>
+                        <li><a href=""><i class="ti-search"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </div>
+        <nav class="header-mobile">
+            <div class="menu">
+                <div class="logo">
+                    <div class="logo-img">
+                        <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                    </div>
+                    <div class="logo-text">
+                        <a href="#">Gen Z</a>
+                    </div>
+                </div>
+                <ul class="menu-mobile">
+                    <li id="Home"><a href="./index.html">
+                            <i class="ti-home"></i>
+                            Home
+                        </a></li>
+                    <li><a href="./thoitrang.html">Fashion</a></li>
+                    <li><a href="./congnghe.html">Technology</a></li>
+
+                    <li class="menu_about">
+                        <a href="#">About us</a>
+                        <ul class="About_us">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Tiktok</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Twiter</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./sport.html">Sport</a></li>
+                    <li><a href="./education.html">Education</a></li>
+                    <li><a href=""><i class="ti-search"></i></a></li>
+                </ul>
+                <div class="menu-mobile">
+                    <i class="ti-menu"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="gototop" onclick="goToTop()" title="go to top">
+        <a href="javascript:;"><img src="./asset/img/brand/icon/gototop.png" alt="GoToTop"></a>
+    </div>
+    <main>
+        <section class="main-content">
+        <h1 class="animate__animated  animate__rubberBand">Nhảy dây và 4 công dụng tuyệt vời</h1>
+        <h2 class="animate__animated  animate__rubberBand">Đã từ lâu, nhảy dây được xem như một bộ môn luyện tập giúp bạn sở hữu vóc dáng thon gọn đáng mơ ước. Nhiều người đã lựa chọn luyện tập bộ môn này vì tính tiện ích mà nó mang lại. Vậy rốt cuộc nhảy dây thường xuyên sẽ giúp ích cho ta những gì? </h2>
+        <h3 class="animate__animated  animate__rubberBand">Giúp cơ bắp săn chắc hơn</h3>
+         <p class="animate__animated  animate__rubberBand">Khi thực hiện nhảy dây, toàn bộ cơ bắp trên cơ thể đều phải vận động. Phần bắp chân liên tục phải thực hiện nhảy lên xuống và bắp tay phải xoay liên tục trong khoảng thời gian ngắn. Việc thực hiện các thao tác ấy trong chu kỳ nhất định sẽ giúp cơ thể đốt cháy calo và mỡ thừa hiệu quả. Từ đó mang đến cho bạn body săn chắc, thon gọn và quyến rũ </p>
+             <img class="animate__animated  animate__rubberBand" src="./asset/img/sport/nhay-day-de-giam-can-co-hieu-qua-khong.jpg" alt="nhay day">
+        <figcaption class="image-caption scroll__left-to-right ">Nhảy dây thường xuyên giúp cơ bắp săn chắc hơn</figcaption>
+        <h3 class="scroll__left-to-right" >Nhảy dây hỗ trợ tăng vòng 3</h3>
+        <p class="scroll__bot-to-top">Để thực hiện bài tập nhảy dây tăng vòng 3 hiệu quả, chúng ta cần lưu ý:</p>
+        <p class="scroll__bot-to-top">Nhảy dây khởi động với tư thế nhảy hai chân truyền thống. Động tác này có tác dụng làm nóng cơ thể, giúp bạn dễ làm quen với nhịp nhảy và chu kỳ xoay của dây. Từ đó thực hiện các động tác sau thuần thục hơn</p>
+        <p class="scroll__bot-to-top">Sau khi đã sẵn sàng với động tác nhảy dây hai chân để khởi động. Hãy chuyển sang động tác “nhảy dây chạy bộ”. Sẽ tương tự như động tác chạy bộ trên máy tập thể dục. Nhưng với hình thức này, cường độ luyện tập từ phần thân dưới của cơ thể sẽ được nâng cao hơn. Qua đó giúp đốt cháy mỡ thừa hiệu quả, giảm mỡ bụng và mỡ đùi nhanh chóng, sở hữu cơ chân và vòng 3 săn chắc, nóng bỏng.</p>
+            <img class="scroll__hide-to-see" src="./asset/img/sport/Loi-ich-nhay-day.jpg" alt="lợi ích nhảy dây ">
+        <figcaption class="image-caption scroll__left-to-right">Thực hiện động tác nhảy dây chạy bộ giúp cơ mông săn chắc hơn</figcaption>
+        <h3 class="scroll__left-to-right">Nhảy dây giúp giảm căng thẳng và mệt mỏi</h3>
+        <p class="scroll__bot-to-top">Sau ngày dài làm việc và học tập mệt mỏi, hãy tìm đến với các bài tập thể dục nhẹ nhàng và đơn giản, chẳng hạn như nhảy dây để giải tỏa căng thẳng, giải phóng năng lượng tiêu cực và yêu đời hơn. Việc luyện tập thể thao mỗi ngày luôn mang đến lợi ích cho bạn.</p>
+        <h3>Giúp vóc dáng thon gọn </h3>
+        <p class="scroll__bot-to-top">Nhảy dây được xem là hình thức tập luyện đơn giản nhưng mang đến hiệu quả không hề tầm thường chút nào. Việc nhảy dây trong 30 phút sẽ giúp bạn đốt cháy lên đến 450 calo. Nên hiệu quả đốt cháy mỡ thừa giúp giảm cân hiệu quả từ việc nhảy dây là hoàn toàn có khả năng.</p>
+        <img class="scroll__hide-to-see" src="./asset/img/sport/nhay-day-giup-giam-can.jpg" alt="lợi ích nhảy dây ">
+        <figcaption class="image-caption scroll__left-to-right">Nhảy dây hỗ trợ vóc dáng trở nên thon gọn hơn </figcaption>
+        <h3 class="scroll__left-to-right">Những điều lưu ý khi nhảy dây </h3>
+        <p class="scroll__bot-to-top">Sau khi nhảy dây xong, bạn nên thả lỏng người. Lúc này nên đi bộ nhẹ cho các mạch máu hạ xuống từ từ. Tuyệt đối không được ăn hay uống bất cứ gì ngay sau khi tập. Vì cơ thể bạn đã tiêu hao rất nhiều năng lượng nên nhu cầu nạp thức ăn vào là rất cao. Nếu bạn đáp ứng ngay thì việc mong muốn giảm cân sẽ không được như ý muốn. </p>
+        <p class="scroll__bot-to-top">Hãy nhảy dây trên sàn gỗ và tốt nhất nên mang giày mềm khi nhảy để tránh làm tổn thương đến các khớp ở bàn chân. Dựa vào sức khỏe của mình mà tập cho vừa sức trong khoảng thời gian đầu. Khi sức chịu đựng của cơ thể đã tăng lên dần, lúc đó bạn nên tăng dần khối lượng và thời gian tập nhảy dây nhằm đạt hiệu quả giảm cân, chân thon, tăng chiều cao hơn. </p>
+        <p class="scroll__bot-to-top">Qua bài viết trên, PLAY đã chia sẻ đến các bạn 4 công dụng tuyệt vời từ việc luyện tập nhảy dây thường xuyên. </p>
+        
+        
+
+
+
+
+
+
+
+
+        </section>
+
+        <section class="opinion">
+            <div class="opinion">
+                <h3>Ý kiến <i class="ti-slice"></i>
+                    <i class="ti-comments"></i>
+                </h3>
+                <div class="box-area">
+                    <textarea id="txtComment" class="txt_comment block_input" placeholder="Chia sẻ ý kiến của bạn...  "
+                        style="overflow-y: hidden; height: 76px;"></textarea>
+                    <i class="ti-location-arrow send"></i>
+
+                </div>
+                <div class="user-send">
+                    <div class="user">
+                        <div class="img-user"><img src="https://cdn-icons-png.flaticon.com/512/1053/1053244.png" alt="">
+                        </div>
+                        <div class="name-user">Name user</div>
+                        <button>Gửi</button>
+                    </div>
+                </div>
+                <h3></h3>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="main-footer">
+            <div class="row">
+                <!-- cot 1 -->
+                <div class="cot">
+                    <img style="width: 60px;" src="./img/zwhite.png" alt="logo">
+                    <p class="desc">Cần sự giúp đỡ tìm hiểu về lứa tuổi Genz , một thanh xuân đầy màu sắc, hoài niệm, mơ
+                        mộng! Với TIN TỨC GENZ sẽ trả lời với các bạn các điều đó.</p>
+                    <div class="socials">
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/facebook.svg" alt="logo" class="icon facebook">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/instagram.svg" alt="logo" class="icon">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/twitter.svg" alt="logo" class="icon twitter">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/linkedin.svg" alt="logo" class="icon in">
+                        </a>
+                    </div>
+                </div>
+                <!-- cot 2 -->
+                <div class="cot">
+                    <h3 class="title">Company</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!">Features</a>
+                        </li>
+                        <li>
+                            <a href="#!">Our Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#!">Latest News</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 3 -->
+                <div class="cot">
+                    <h3 class="title">Support</h3>
+                    <ul class="list">
+
+                        <li>
+                            <a href="#!">FAQ’s</a>
+                        </li>
+                        <li>
+                            <a href="#!">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#!">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 4 -->
+                <div class="cot">
+                    <h3 class="title">Address</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!"><strong>Location</strong>: 27 Division St, New York, NY 10002, USA</a>
+                        </li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: nguyenchivy@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 814 468</a>
+                        </li>
+                        <li></li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: ngoctuong@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 6465 468</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> Copyright&copy; 2023 webdesign.gdn All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

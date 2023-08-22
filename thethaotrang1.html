@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tin Tức Thể Thao</title>
+        <link rel="stylesheet" href="./asset/css/style.css">
+        <link rel="shortcut icon" href="./asset/img/brand/icon/ZZ2.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
+        <link rel="stylesheet" href="./asset/css/thethao.css">
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./asset/js/sport.js"></script>
+        <script src="./asset/js/main.js"></script>  
+    </head>
+<body>
+    <header>
+    <div class="button-login" onclick="login()">
+        <div class="text-login">Log In</div>
+    </div>
+    <div class="content-relative">
+        <div class="content-login">
+            <div class="button-close" onclick="closelogin()">
+                <div class="close" >
+                    <p>Close</p>    
+                </div>
+                    <img src="./asset/icon/icon-close.svg" alt="icon-close">
+                 </div>
+            <div class="content">
+                <div class="offer animation">
+                    Sign in to receive special offers
+                </div>
+                <div class="name-Login animation">Log In With Email</div>
+                <div class="input " >
+                        <input type="email" class="email animation" placeholder="Email">
+                        <input type="password" class="email animation"placeholder="Password">
+                    </div>
+                    <div class="dongydichvu animation">
+                        <input type="checkbox" name="vydeptrai" id="dongy">
+                        <label for="checkbox">
+                            Have you read the terms and conditions carefully and are sure to log in and join our website?</label>
+                    </div>
+                    <div class="submit animation">
+                        <b>SUBMIT</b>
+                    </div>
+                    <div class="support animation">
+                        <p>Need help contact us:</p>
+                        <div class="emailus animation">
+                            <div >
+                                <strong>Email</strong>: Nguyenchivy@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-481-446
+                            </div>
+                            <div >
+                                <strong>Email</strong>: Nguyenngoctuong@gmail.com <br>
+                                <strong>MyPhone</strong>: 098-46-465-468
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header ">
+        <nav class="headerFixed">
+            <div class="menu">
+                <div class="logo">
+                    <div class="logo-img">
+                        <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                    </div>
+                    <div class="logo-text">
+                        <a href="#">Gen Z</a>
+                    </div>
+                </div>
+                <ul>
+                    <li id="Home"><a href="./index.html">
+                            <i class="ti-home"></i>
+                            Home
+                        </a></li>
+                    <li><a href="./thoitrang.html">Fashion</a></li>
+                    <li><a href="./congnghe.html">Technology</a></li>
+
+                    <li class="menu_about">
+                        <a href="#">About us</a>
+                        <ul class="About_us">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Tiktok</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Twiter</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./sport.html">Sport</a></li>
+                    <li><a href="./education.html">Education</a></li>
+                    <li><a href=""><i class="ti-search"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="headerUnFixed">
+            <div class="menu  ">
+                <div class="logo">
+                    <div class="logo-img">
+                        <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                    </div>
+                    <div class="logo-text">
+                        <a href="#">Gen Z</a>
+                    </div>
+                </div>
+                <ul>
+                    <li id="Home"><a href="./index.html">
+                            <i class="ti-home"></i>
+                            Home
+                        </a></li>
+                    <li><a href="./thoitrang.html">Fashion</a></li>
+                    <li><a href="./congnghe.html">Technology</a></li>
+                    <li class="menu_about">
+                        <a href="#">About us</a>
+                        <ul class="About_us">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Tiktok</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Twiter</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./sport.html">Sport</a></li>
+                    <li><a href="./education.html">Education</a></li>
+                    <li><a href=""><i class="ti-search"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </div>
+    <nav class="header-mobile">
+        <div class="menu">
+            <div class="logo">
+                <div class="logo-img">
+                    <img src="./asset/img/brand/icon/Zlogo.png" alt="">
+                </div>
+                <div class="logo-text">
+                    <a href="#">Gen Z</a>
+                </div>
+            </div>
+            <ul class="menu-mobile">
+                <li id="Home"><a href="./index.html">
+                        <i class="ti-home"></i>
+                        Home
+                    </a></li>
+                <li><a href="./thoitrang.html">Fashion</a></li>
+                <li><a href="./congnghe.html">Technology</a></li>
+
+                <li class="menu_about">
+                    <a href="#">About us</a>
+                    <ul class="About_us">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Tiktok</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">Twiter</a></li>
+                    </ul>
+                </li>
+                <li><a href="./sport.html">Sport</a></li>
+                <li><a href="./education.html">Education</a></li>
+                <li><a href=""><i class="ti-search"></i></a></li>
+            </ul>
+            <div class="menu-mobile">
+                <i class="ti-menu"></i>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div id="gototop" onclick="goToTop()" title="go to top">
+    <a href="javascript:;"><img src="./asset/img/brand/icon/gototop.png" alt="GoToTop"></a>
+</div>  
+    <main>
+    <section class="main-content ">
+        <h1 class="animate__animated animate__backInDown">Ronaldo lập cú đúp giúp Al-Nassr vô địch Arab Club Champions Cup</h1>
+        <h2 class="animate__animated animate__backInDown" >Cristiano Ronaldo lập cú đúp giúp Al-Nassr ngược dòng đánh bại Al-Hilal ở trận chung kết Arab Club Champions Cup 2023.</h2>
+        <img class="animate__animated animate__backInDown" src="./asset/img/sport/content/ronaldo.jpg" alt="ảnh ronaldo">
+        <figcaption class="image-caption scroll__left-to-right">Cristiano Ronaldo có chức vô địch đầu tiên cùng Al-Nassr. Ảnh: Al-Nassr</figcaption>
+        <p class="scroll__bot-to-top">Đêm 12.8 (giờ Việt Nam), Cristiano Ronaldo và câu lạc bộ Al-Nassr bước vào trận chung kết Cúp các câu lạc bộ Arab 2023 (Arab Club Champions Cup 2023), gặp Al-Hilal, một đội bóng Saudi Arabia khác chỉ xếp sau họ trên bảng xếp hạng Saudi Pro League mùa trước.</p>
+        
+        <p class="scroll__bot-to-top">Đây có thể được ví như “trận chiến châu Âu tại Trung Đông”, khi mùa Hè này, Al-Nassr, Al-Hilal (cùng các câu lạc bộ hàng đầu khác) đã đem về nhiều cầu thủ tên tuổi từ lục địa già.</p>
+       
+        <p class="scroll__bot-to-top">Nếu như Al-Nassr có Ronaldo, Alex Telles, Marcelo Brozovic, Sadio Mane, Talisca thì bên kia chiến tuyến, Al-Hilal cũng tung vào sân ngay từ đầu những Kalidou Koulibaly, Ruben Neves, Sergei Milinkovic-Savic hay Malcom.</p>
+       
+        <p class="scroll__bot-to-top">Quyết tâm của cả 2 đội là không phải bàn cãi, để trận derby Saudi Arabia diễn ra quyết liệt. Trong hiệp 1, Al-Nassr là đội chơi tốt hơn, thế nhưng, việc không tận dụng được cơ hội khiến nửa đầu trận đấu không có bàn thắng.</p>
+        <img class="scroll__hide-to-see" src="./asset/img/sport/Al-Nassr-Al-Hilal.jpg" alt="ảnh thi đấu bóng đá">
+        <figcaption class="image-caption">Trận chung kết diễn ra quyết liệt, căng thẳng hấp dẫn. Ảnh: Al-Nassr</figcaption>
+        <p class="scroll__bot-to-top">        Ngay đầu hiệp 2, cú sốc đến với Al-Nassr khi đối thủ có bàn thắng từ pha phản công nhanh. Michael là người kết thúc sau đường chuyền của Malcom.
+        </p>
+        <p class="scroll__bot-to-top">Không chỉ bị tụt lại, Al-Nassr thậm chí còn mất người khi tiền vệ Abdulelah Al-Amri nhận thẻ đỏ trực tiếp ở phút 71. Sự căng thẳng lên cao, ngay cả cầu thủ ngồi trên ghế dự bị như Nawaf Al-Boushail cũng nhận thẻ đỏ vì phản ứng ở phút 78.
+        </p>
+        <p class="scroll__bot-to-top">            Trong tình thế khó, Ronaldo lại xuất hiện đúng lúc. Chỉ 3 phút sau khi thua thiệt về nhân sự, từ một pha tấn công sắc nét, CR7 đệm bóng cận thành đường chuyền của Al-Ghannam, gỡ hòa 1-1 cho Al-Nassr.
+        </p>
+        <img  class="scroll__hide-to-see" src="./asset/img/sport/Al-Nassr-Al-Hilal1.jpg" alt="ảnh vô địch">
+        <figcaption class="image-caption"> Al-Nassr lần đầu tiên vô địch Arab Club Champions Cup. Ảnh: Al-Nassr</figcaption>
+        <p class="scroll__bot-to-top">Chơi hơn người nhưng Al-Hilal không thể áp đảo, nên 90 phút chính thức khép lại với tỉ số hòa 1-1. Bước vào hiệp phụ, Ronaldo, với phong độ cao trong mùa hè này, trở thành người hùng của Al-Nassr.
+        </p>
+        <p class="scroll__bot-to-top">Phút 98, sau khi pha dứt điểm của đồng đội đưa bóng đi trúng xà ngang, siêu sao 38 tuổi có mặt đúng chỗ, đánh đầu ghi bàn nâng tỉ số lên 2-1.
+        </p>    
+        <p class="scroll__bot-to-top">        5 phút sau, lại thêm một cầu thủ khác của Al-Nassr trên ghế dự bị nhận thẻ đỏ, đến phút 115, chinh Ronaldo cũng phải rời sân, nhưng là do chấn thương.
+        </p>
+        <img  class="scroll__hide-to-see" src="./asset/img/sport/Ronaldo1.jpg" alt="ronaldo với đồng đội" class="image-caption">
+        <figcaption class="image-caption">Ronaldo giành giải Chiếc giày vàng với 6 bàn thắng. Ảnh: Al-Nassr</figcaption>
+        <p class="scroll__bot-to-top">Dù vậy, các đồng đội đã giữ vững thành quả để lần đầu tiên trong lịch sử Al-Nassr đăng quang giải đấu này.
+            </p>
+        <p class="scroll__bot-to-top">Tất nhiên, Ronaldo cũng có danh hiệu đầu tiên trong màu áo Al-Nassr. Một giải đấu xuất sắc của CR7, với việc ghi 6 bàn ở 5/6 trận, giành danh hiệu Vua phá lưới.
+        </p>
+
+    </section>
+
+        <section class="opinion">
+            <div class="opinion">
+                <h3>Ý kiến <i class="ti-slice"></i>
+                    <i class="ti-comments"></i>
+                </h3>
+                <div class="box-area">
+                    <textarea id="txtComment" class="txt_comment block_input" placeholder="Chia sẻ ý kiến của bạn...  "
+                        style="overflow-y: hidden; height: 76px;"></textarea>
+                    <i class="ti-location-arrow send"></i>
+
+                </div>
+                <div class="user-send">
+                    <div class="user">
+                        <div class="img-user"><img src="https://cdn-icons-png.flaticon.com/512/1053/1053244.png" alt="">
+                        </div>
+                        <div class="name-user">Name user</div>
+                        <button>Gửi</button>
+                    </div>
+                </div>
+                <h3></h3>
+            </div>
+        </section>
+
+    </main>
+    
+
+       <footer class="footer">
+        <div class="main-footer">
+            <div class="row">
+                <!-- cot 1 -->
+                <div class="cot">
+                    <img style="width: 60px;" src="./img/zwhite.png" alt="logo">
+                    <p class="desc">Cần sự giúp đỡ tìm hiểu về lứa tuổi Genz , một thanh xuân đầy màu sắc, hoài niệm, mơ
+                        mộng! Với TIN TỨC GENZ sẽ trả lời với các bạn các điều đó.</p>
+                    <div class="socials">
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/facebook.svg" alt="logo" class="icon facebook">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/instagram.svg" alt="logo" class="icon">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/twitter.svg" alt="logo" class="icon twitter">
+                        </a>
+                        <a href="#!">
+                            <img style="width: 18px;" src="./asset/icon/linkedin.svg" alt="logo" class="icon in">
+                        </a>
+                    </div>
+                </div>
+                <!-- cot 2 -->
+                <div class="cot">
+                    <h3 class="title">Company</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!">Features</a>
+                        </li>
+                        <li>
+                            <a href="#!">Our Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#!">Latest News</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 3 -->
+                <div class="cot">
+                    <h3 class="title">Support</h3>
+                    <ul class="list">
+
+                        <li>
+                            <a href="#!">FAQ’s</a>
+                        </li>
+                        <li>
+                            <a href="#!">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#!">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cot 4 -->
+                <div class="cot">
+                    <h3 class="title">Address</h3>
+                    <ul class="list">
+                        <li>
+                            <a href="#!"><strong>Location</strong>: 27 Division St, New York, NY 10002, USA</a>
+                        </li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: nguyenchivy@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 814 468</a>
+                        </li>
+                        <li></li>
+                        <li>
+                            <i class="ti-email" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Email</strong>: ngoctuong@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="ti-mobile" style="color: white; font-size: 18px;"></i> <a
+                                href="#!"><strong>Phone:</strong> + 0984 6465 468</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> Copyright&copy; 2023 webdesign.gdn All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+   
+</body>
+</html>

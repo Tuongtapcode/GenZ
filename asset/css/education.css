@@ -1,0 +1,265 @@
+header{
+    position: relative;
+    height: 100vh;
+}
+header .img-header{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+} 
+.menu > ul > li:first-child > a {
+    background:none;
+    color: gray;
+}
+.menu > ul > li:first-child:hover > a {
+    background:rgba(230, 230, 255, 0.6);
+    color: brown;
+}
+.menu > ul > li:nth-child(5) > a {
+    background:none;
+    color: gray;
+}
+.menu > ul > li:nth-child(5):hover > a {
+    background:rgba(230, 230, 255, 0.6);
+    color: brown;
+}
+.menu > ul > li:nth-child(6) > a {
+    background:rgba(230, 230, 255, 0.6);
+    color: brown;
+}
+.menu > ul > li:nth-child(6){
+    overflow: hidden;
+}
+.gioithieu .noidung{
+    display: flex;
+    margin-top: 4rem;
+    position: relative;
+}
+.gioithieu .noidung .imggioithieu{
+    display: flex;
+    width: 40%;
+    gap: 2rem;
+}
+.gioithieu .noidung .imggioithieu img{
+    width: 28rem;
+}
+.gioithieu .noidung .imggioithieu .two{
+    position: absolute;
+    top: -4rem;
+    left: 30rem;
+}
+.gioithieu .noidunggioithieu{
+    width: 52%;
+    margin-left:15rem ;
+}
+.gioithieu .noidunggioithieu h1{
+    text-align: center;
+}
+.gioithieu .noidunggioithieu div{
+    text-align: justify;
+    font-size: 2.4rem;
+    line-height: 2;
+}
+.caunoihaytrongthethaoeducation{
+    margin-top: 6rem;
+    width: 100%;
+    height: 50rem;
+    
+}
+.caunoihaytrongthethaoeducation .gioithieucaunoieducation{
+    position: relative;
+    color: #3f3f3f;
+    font-size: 3.5rem;
+    margin-top: 6rem;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+    color: #3f3f3f;
+}
+.gioithieucaunoieducation::before{
+    position: absolute;
+    content: '';
+    width: 0.5rem;
+    height: 65%;
+    background-color:#565553;
+    left: -1rem;
+    top: 0.5rem;
+    
+}
+.caunoihaytrongthethaoeducation .caunoieducation{
+    padding: 0 60px;
+    margin-top: 40px;
+    height: 40rem;
+    background-color: transparent;
+    background-image: url(/asset/img/education/caunoihayeducation.jpg);
+    background-position: 64% -11%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 150rem;
+    color: white;
+
+    position: relative;
+    
+   
+}
+.caunoihaytrongthethaoeducation .caunoieducation i{
+    position: absolute;
+    top: 12rem;
+    font-size: 3.5rem;
+    text-align: center;
+    line-height: 1.75;
+    color: #dbd6d6;
+}
+.caunoihaytrongthethaoeducation .caunoieducation div{
+     position: absolute;
+    top: 6rem;
+    font-size: 3rem;
+    text-align: center;
+    left:10%;
+    color: #656360;
+    
+}
+ul li{
+    margin-left: 1rem;
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+
+    main .gioithieu{
+        margin: 0;
+    }
+    .headerUnFixed, .headerUnFixed{
+        display: none;
+    }
+    .header-sticky{
+        display: none;
+    }
+
+    .header-mobile > .menu{
+        display: none;
+    }
+
+
+    .header-mobile{
+        background-color:#fff;
+        position: relative;
+        top:-6rem;
+        width: 100%;
+        padding: 0;
+        font-size: 3rem;
+        transition: top 0.5s;
+    }
+    .header-mobile .menu .logo a{
+        color: gray
+    }
+    .header-mobile > .menu{
+        position: relative;
+        max-width: 1200px;
+        margin: auto;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+    
+    
+    .header-mobile > .menu a{
+        text-decoration: none;
+    }
+    .header-mobile {
+        position: fixed;
+        display: block;
+        z-index: 999;
+        padding: 15px;
+        top: 0;
+        width: 100vw;
+        box-shadow: 0 0 10px rgba(0,0,0, 0.6);
+    }
+    div.menu-mobile {
+        display: block;
+    }
+    div.menu-mobile > i{
+        font-size: 25px;
+        padding:15px;
+        color: gray;
+    }
+   
+    .header-mobile ul.menu-mobile{
+        position: fixed;
+        top: 8rem;
+        left: 0;
+        right: 100%;
+        bottom: 0;
+        flex-direction: column;
+        background: #FFF;
+        transition: all .5s;
+        overflow: hidden;
+        opacity: 0;
+    }
+    .header-mobile ul
+     {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        overflow: unset;
+    }
+    .menu > ul.menu-mobile > li {
+        width: 100%;
+        text-align: center;
+        line-height: 2;
+    }
+    .menu > ul > li > ul.About_us{
+        width: 100%;
+       
+    }
+    .menu > ul > li > ul.About_us > li a{
+        text-align: center;
+        background:#bfbcb2;
+    }
+    .header-mobile ul.show{
+        right: 0;
+        opacity: 1;
+    }
+
+    
+    .gioithieu .noidung{
+        display: block;
+        margin-top: 4rem;
+        position: unset;
+    }
+    
+    .gioithieu .noidung .imggioithieu{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .gioithieu .noidung .imggioithieu img{
+        width: 43%;
+    }
+    .gioithieu .noidung{
+       
+        position: unset;
+    }
+    .gioithieu .noidung .imggioithieu .two{
+        position: unset;
+       
+    }
+    .gioithieu .noidunggioithieu{
+        width: 90%;
+        margin: 0 auto;
+    
+    }
+    .gioithieu .noidunggioithieu div {
+        text-align: justify;
+    }
+    .tintuc .noidungtintuc .padingkhoi {
+        margin-bottom: 52rem;
+        height: 110rem;
+    }
+}
+    
+    
+    
+    
+    
