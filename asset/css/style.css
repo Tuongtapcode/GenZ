@@ -179,22 +179,24 @@ div.text-three:hover{
 }
 .content-login .content{
     position: absolute;
-    top: 10rem  ;
-    left: 3rem;
+    top: 50%  ;
+    left: 50%;
+    transform: translate(-50%, -50%); 
     font-size: 3rem;
     color: #f5deb3;
     font-weight: 600;
-
+    width: 90%;
 }
 .content-login .content .offer{
     margin-bottom: 5rem;
     font-size: 2.4rem;
     width: 100%;
-    
+    text-align: center;
+    text-wrap: nowrap;
 }
 .content-login .content .name-Login{
-    margin-left: 9rem;
-    margin-bottom: 3rem;
+    text-align: center;
+    margin: 1rem auto;
 }
 .content-login .content .email{
     width: 100%;    
@@ -221,8 +223,7 @@ div.text-three:hover{
     justify-content: center;
     align-items: center;
     border-radius: 2rem;
-    margin-left:12rem;
-    margin-top: 3rem;
+    margin:2rem auto;
     font-size: 2rem;
     cursor: pointer;
 }
@@ -333,7 +334,6 @@ div.text-three:hover{
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 30%;
 }
 
 .menu .logo-img{
@@ -374,7 +374,7 @@ max-height: 100%;
 }
 .menu > ul > li {
     list-style-type: none;
-    margin-left: 7px;
+    margin-left: 0.7rem;
     padding: 0;
     line-height: 2.4rem;
 }
@@ -399,7 +399,7 @@ max-height: 100%;
     padding: 0;
     display: none;
     position: absolute;   
-    box-shadow: 0 0 10px rgba(0,0,0, 0.6);
+    box-shadow: 0 0 1rem rgba(0,0,0, 0.6);
 }
 
 nav ul> li#Home {
@@ -412,7 +412,7 @@ li.menu_about:hover ul.About_us{
 .menu > ul > li > ul.About_us > li > a{
     text-decoration: none;
     color: gray;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 550;
     text-align: left;
     background:rgba(230, 230, 255, 0.6);
@@ -426,7 +426,7 @@ li.menu_about:hover ul.About_us{
 }
 
 .menu > ul > li i{
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 .menu > ul > li:first-child > a {
     background:rgba(230, 230, 255, 0.6);
@@ -923,12 +923,12 @@ div.foot-main-right{
 
   /* footer */
 .footer {
-    padding: 96px 135px 0;
+    padding: 9.6rem 13.5rem 0;
     background: #2e2100;
 }
 .footer .row {
     display: flex;
-    padding-bottom: 38px;
+    padding-bottom: 3.8rem;
     border-bottom: 1px solid #59554b;
 }
 footer .row .cot {
@@ -940,8 +940,8 @@ footer .row .cot {
 }
 
 .footer .desc {
-    margin-top: 18px;
-    max-width: 267px;
+    margin-top: 1.8rem;
+    max-width: 26.7rem;
     font-size: 1.4rem;
     line-height: 1.86;
     color: #bfbcb2;
@@ -1071,7 +1071,8 @@ div.menu-mobile{
     .header-sticky{
         display: none;
     }
-    
+    .headerUnFixed > .menu,
+    .headerFixed > .menu,
     .header-mobile > .menu{
         display: none;
     }
@@ -1080,11 +1081,9 @@ div.menu-mobile{
     .header-mobile{
         background-color:#fff;
         position: relative;
-        top:-6rem;
         width: 100%;
         padding: 0;
         font-size: 3rem;
-        transition: top 0.5s;
     }
     .header-mobile .menu .logo a{
         color: gray
@@ -1099,7 +1098,7 @@ div.menu-mobile{
         padding: 0 2rem;
     }
     
-    
+
     .header-mobile > .menu a{
         text-decoration: none;
     }
@@ -1107,23 +1106,23 @@ div.menu-mobile{
         position: fixed;
         display: block;
         z-index: 999;
-        padding: 15px;
+        padding: 3.5rem;
         top: 0;
         width: 100vw;
-        box-shadow: 0 0 10px rgba(0,0,0, 0.6);
+        box-shadow: 0 0 1rem rgba(0,0,0, 0.6);
     }
     div.menu-mobile {
         display: block;
     }
     div.menu-mobile > i{
-        font-size: 25px;
-        padding:15px;
+        font-size: 2.5rem;
+        padding:1.5rem;
         color: gray;
     }
    
     .header-mobile ul.menu-mobile{
         position: fixed;
-        top: 8rem;
+        top: 12rem;
         left: 0;
         right: 100%;
         bottom: 0;
@@ -1143,15 +1142,15 @@ div.menu-mobile{
     .menu > ul.menu-mobile > li {
         width: 100%;
         text-align: center;
-        line-height: 2;
+        line-height: 4;
     }
     .menu > ul > li > ul.About_us{
         width: 100%;
-       
     }
     .menu > ul > li > ul.About_us > li a{
         text-align: center;
         background:#bfbcb2;
+        font-size: 2rem;
     }
     .header-mobile ul.show{
         right: 0 !important;
@@ -1171,7 +1170,7 @@ div.menu-mobile{
         display: flex;
         width: 90%;
         justify-content: space-around;
-        margin: 40px auto;
+        margin: 4rem auto;
     }
 
 
@@ -1186,10 +1185,11 @@ div.menu-mobile{
        
     }
     .content-login .content{
+        width: 60%;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);   
     }
 
 
@@ -1241,7 +1241,7 @@ div.menu-mobile{
         height: 300px;
     }
     div.features-extra-content> h2  {
-        font-size:3.0rem ;
+        font-size:3rem ;
         font-weight: 700;
     }
     .main-sidebar {
@@ -1257,12 +1257,21 @@ div.menu-mobile{
         width: 100%;
         height: 300px;
     }
+    div.post-item > a{
+        width: 50%;
+       
+    }
+    div.post-item > a:first-child{
+      margin-right: 20px;
+    }
     div.post-item > a h3.title{
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 700;
     }
     div.post-item > a p.title {
         font-size: 20px;
+        height: 70px;
+        overflow: hidden;
         padding: 10px;
         line-height: 1.43;
         color: #000;
@@ -1345,6 +1354,17 @@ div.menu-mobile{
         width: 90%;
         margin: auto;
     }
+    .foot-main{
+        flex-direction: column;
+    }
+    div.foot-main-left {
+        width: 90%;
+        margin: auto;
+    }
+    div.foot-main-right{
+        width: 90%;
+        margin: 10rem auto;
+    }
     .footer .row{
         flex-direction: column;
     }
@@ -1359,19 +1379,19 @@ div.menu-mobile{
     }
 
     .footer .desc {
-       font-size: 23px;
+       font-size: 2.3rem;
         max-width: 100%;
     }
 
     .footer .title {
-        font-size: 23px;
+        font-size: 2.3rem;
         display: block;
         border-bottom: none;
         border-top: 1px solid #59554b;
-        margin-top: 20px;
+        margin-top: 2rem;
     }
     .footer .list {
-        margin-top: 10px;
+        margin-top: 1rem;
      
     }
     

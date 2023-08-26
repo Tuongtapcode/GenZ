@@ -445,7 +445,9 @@ section.opinion{
   }
   
   @media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
-  
+  header{
+    margin-top: 6rem;
+  }
     div.text-on-video{
         position: absolute;
         top:27%;
@@ -456,8 +458,7 @@ section.opinion{
         align-items: center;
     }
     div.text-one{
-        font-size: 10rem;
-
+        font-size: 11rem;
     }
     main.content {
         padding: 30px 0 ;

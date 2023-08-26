@@ -468,46 +468,22 @@ main .gioithieu{
   /* footer */
   .footer {
     margin-top: 10rem;
-    padding: 96px 135px 0;
-    background: #2e2100;
-}
-.footer .row {
-    display: flex;
-    padding-bottom: 38px;
-    border-bottom: 1px solid #59554b;
-}
-footer .row .cot {
-    width: 21.6%;
-}
-
-.footer .row .cot:first-child {
-    width: 35%;
-}
-
-.footer .desc {
-    margin-top: 18px;
-    max-width: 267px;
-    font-size: 1.4rem;
-    line-height: 1.86;
-    color: #bfbcb2;
-}
-
-.footer .socials {
-    display: flex;
-    gap: 18px;
-    margin-top: 18px;
 }
 
 
 .footer .list {
-    margin-top: 28px;
+    margin-top: 2.8rem;
 }
 
 
-@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+@media only screen and (max-width: 63.9375em){
+    *{
+        font-size: 31.25%
+    }
 header{
     height: 45vh;
     width: 100vw;
+    margin-top: 4rem;
 }
 .content-login{
     width: 100vw;
@@ -520,13 +496,13 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.caunoihaytrongthethao .caunoi{
-    background-position: 60% -11%
+div.text-login{
+    font-size: 10px;
 }
-
 .noidungmoinhat {
     height: auto;
     padding: 5rem 5rem;
+   
 }
 
 .gioithieu .noidung {
@@ -535,7 +511,10 @@ header{
 }
 .gioithieu .noidung  > h1{
     text-align: center;
-    font-size: 3rem;
+    font-size: 5rem;
+}
+.gioithieumoinhat{
+    font-size: 50px
 }
 .noidungmoinhat .moinhat {
    flex-wrap: wrap;
@@ -544,23 +523,33 @@ header{
 }
 .noidungmoinhat .itemmoinhat {
     width: 45%;
-    margin: 10px;
-    height: 46rem;
+    margin-bottom: 10px;
+    height: 49rem;
 }
 .noidungmoinhat .info .title a{
-    font-size: 25px;
+    font-size: 14px;
     font-weight: 600;
     color: #3f3f3f;
 }
 .date{
-    font-size: 18px;
+    font-size: 11px;
 }
 .caunoihaytrongthethao .gioithieucaunoi > h2{
     font-size: 3.5rem;
 }
-
+.tintuc {
+    margin-top: 18rem;
+}
 .caunoihaytrongthethao .caunoi {
-    height: 53rem;
+    height: 60rem;
+    background-position: 59% -20%;
+}
+.tintuc .gioithieutintuc h2, 
+.xemthem h2{
+    font-size: 15px;
+}
+.caunoihaytrongthethao .caunoi i {
+   width: 80%;
 }
 .tintuc .noidungtintuc .buttonxemthem {
     bottom: 50px;
@@ -581,7 +570,6 @@ header{
     justify-content: space-between;
     gap: 2rem;
 }
-
 .tintuc .padingkhoi .anhbe {
     width: 100%;
 }
@@ -593,11 +581,11 @@ header{
     margin-top: 0;
 }
 .tintuc .info .title > a{
-    font-size: 30px;
+    font-size: 30rem;
     color: #dbd6d6;
 }
 .tintuc .anhbe .noidunganhbe .titlebe > a{
-    font-size: 25px;
+    font-size:2.5rem;
     color: #dbd6d6;
 }
 

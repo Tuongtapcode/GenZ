@@ -123,7 +123,7 @@ ul li{
     margin-left: 1rem;
 }
 
-@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+@media only screen  and (max-width: 63.9375em){
 
     main .gioithieu{
         margin: 0;
@@ -170,7 +170,7 @@ ul li{
         position: fixed;
         display: block;
         z-index: 999;
-        padding: 15px;
+        padding: 1.5rem;
         top: 0;
         width: 100vw;
         box-shadow: 0 0 10px rgba(0,0,0, 0.6);
@@ -179,8 +179,8 @@ ul li{
         display: block;
     }
     div.menu-mobile > i{
-        font-size: 25px;
-        padding:15px;
+        font-size: 2.5rem;
+        padding:1.5rem;
         color: gray;
     }
    
@@ -220,8 +220,24 @@ ul li{
         right: 0;
         opacity: 1;
     }
-
-    
+    .caunoihaytrongthethaoeducation .caunoieducation {
+        padding: 0;
+    }
+    .caunoihaytrongthethaoeducation .gioithieucaunoieducation  h2{
+        font-size: 18px;
+    }
+    header{
+        height: 45vh;
+        width: 100vw;
+        margin-top: 4rem;
+    }
+    .caunoihaytrongthethaoeducation .caunoieducation{
+        height: 60rem;
+        background-position: 50% -7%;
+    }
+    .gioithieu .mucde {
+        margin-left: 7rem;
+    }
     .gioithieu .noidung{
         display: block;
         margin-top: 4rem;
@@ -250,12 +266,23 @@ ul li{
         margin: 0 auto;
     
     }
+    .caunoihaytrongthethaoeducation .caunoieducation i{
+        top: 48%  ;
+        left: 50%;
+        transform: translate(-50%, -50%);
+ 
+    }
     .gioithieu .noidunggioithieu div {
         text-align: justify;
     }
     .tintuc .noidungtintuc .padingkhoi {
         margin-bottom: 52rem;
         height: 110rem;
+    }
+    .caunoihaytrongthethaoeducation .caunoieducation i {
+        width: 90%;
+        margin: auto;
+        padding: 0;
     }
 }
     
